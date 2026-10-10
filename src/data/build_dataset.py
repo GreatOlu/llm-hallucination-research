@@ -2,6 +2,8 @@ import random
 from collections import defaultdict
 
 from datasets import load_dataset
+import json
+from pathlib import Path
 
 
 SEED = 42
@@ -11,6 +13,7 @@ NUM_CORPUS_PASSAGES = 500
 NUM_UNANSWERABLE = 50
 NUM_UNANSWERABLE_CANDIDATES = 100
 MAX_UNANSWERABLE_PER_CONTEXT = 1
+OUTPUT_DIR = Path("data/processed")
 
 
 def sample_answerable_questions(validation):
@@ -135,6 +138,16 @@ def sample_unanswerable_candidates(validation):
 
     return selected[:NUM_UNANSWERABLE_CANDIDATES]
 
+def save_json(data, filename):
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    output_path = OUTPUT_DIR / filename
+
+    with open(output_path, "w", encoding="utf-8") as file:
+        json.dump(data, file, indent=2, ensure_ascii=False)
+
+    print(f"Saved: {output_path}")
+
 def main():
     dataset = load_dataset("rajpurkar/squad_v2")
     validation = dataset["validation"]
@@ -201,6 +214,21 @@ def main():
     ):
         print(f"\n{i}. {example['question']}")
         print(f"   Topic: {example['title']}")
+
+    save_json(
+        selected,
+        "answerable_questions.json"
+    )
+
+    save_json(
+        knowledge_base,
+        "knowledge_base.json"
+    )
+
+    save_json(
+        unanswerable_candidates,
+        "unanswerable_candidates.json"
+    )
 
 if __name__ == "__main__":
     main()
