@@ -1,0 +1,602 @@
+[
+  {
+    "id": "5a59002d3e1742001a15cf3b",
+    "question": "Absolute ages had to be converted into what?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0007 talks about converting relative ages to absolute ages"
+  },
+  {
+    "id": "5a3e2dc0378766001a0024c3",
+    "question": "Which non-governmental groups are participants of the plenary sessions?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "no passage answers the question"
+  },
+  {
+    "id": "5a38c16aa4b263001a8c1905",
+    "question": "What have politically correct policies about nuclear power promoted in America?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0057 talks about the impact of politically expedient policies about energy; this does not answer our question specifically"
+  },
+  {
+    "id": "5a667f50846392001a1e1c67",
+    "question": "What did Baran call his system?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "no passage answers the question\rdoc_0048 mentions a more accessible name but not Baran’s"
+  },
+  {
+    "id": "5ad56ef05b96ef001a10aeab",
+    "question": "What do SAT solvers not usually handle when testing?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "no passage answers the question"
+  },
+  {
+    "id": "5a8943753b2508001a72a570",
+    "question": "What type of insect employs the use of Magicicadas in its evolutionary strategy?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0058 mentions that magi cicadas use prime numbers as an evolutionary strategy"
+  },
+  {
+    "id": "5ad4b1895b96ef001a109dca",
+    "question": "What chemical keeps immune cells away from the site of infection?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0028 talks about chemicals that recruit immune cells to the site of infection"
+  },
+  {
+    "id": "5a0c7cb3f5590b0018dab42c",
+    "question": "The poor soil found over much of the Amazon force is a result of what?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0238 mentions poor soil but not the cause"
+  },
+  {
+    "id": "5ad265d2d7d075001a4291c6",
+    "question": "What is held inside the formal legal ownership registration system in many developing countries?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0026 states that much land and housing is held outside the formal property registration system, but does not identify what is held inside it"
+  },
+  {
+    "id": "5acf8d4077cf76001a6851fa",
+    "question": "Diermeier was replaced as Provost by who?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0053 identifies Daniel Diermeier as Eric Isaacs's successor, but does not identify who replaced Diermeier as Provost."
+  },
+  {
+    "id": "5a8919843b2508001a72a4bf",
+    "question": "How many primes were included in the early Greek's list of prime numbers?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "no passage answers the question"
+  },
+  {
+    "id": "5ad25d49d7d075001a428eed",
+    "question": "In what year was Rene Goulaine de Laudonniere born?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "none of the passages reference Rene Goulaine de Laudonniere"
+  },
+  {
+    "id": "5acf8b1177cf76001a68518e",
+    "question": "The first buildings of the University of Oxford are known as what?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0059 identifies the Main Quadrangles as the first buildings of the University of Chicago, not the University of Oxford"
+  },
+  {
+    "id": "5ad405f0604f3c001a3ffe2d",
+    "question": "How did Yesun Temur die",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "Doc_0074 identifies when and where Yesün Temür died but does not explain his cause of death."
+  },
+  {
+    "id": "5ad3ed26604f3c001a3ff79a",
+    "question": "What pope opposed Roberts campaign?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "no passage answers the question"
+  },
+  {
+    "id": "5a0c6698f5590b0018dab3e5",
+    "question": "What covers most of the Amazon basin of Central America?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0050 states that the Amazon rainforest covers most of the Amazon basin of South America, not Central America."
+  },
+  {
+    "id": "5ad03aa977cf76001a686e88",
+    "question": "What group is set up to scrutinize public bills submitted to the Scottish Parliament?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0003 identifies Private Bill Committees as responsible for scrutinizing private bills,"
+  },
+  {
+    "id": "5ad2909bd7d075001a429a9f",
+    "question": "What changed the Delta in the first half of the 20th Century?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0061 discuss what changed the Delta in the second half of the 20th Century"
+  },
+  {
+    "id": "5acf7ecb77cf76001a684fa6",
+    "question": "It was outlined that who's donations could only be used for buildings?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0054 states that Rockefeller's donation could not be used for buildings, while other donors funded construction"
+  },
+  {
+    "id": "5ad400b0604f3c001a3ffce1",
+    "question": "Who incorperated Islamic, LOmbard, and Byzantine building techniques in England?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0021 states that the Normans incorporated Islamic, Lombard, and Byzantine architectural techniques in southern Italy, not England"
+  },
+  {
+    "id": "5a7b079b21c2de001afe9cf9",
+    "question": "What show did Lupe Mayorga star in?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "None of the passages mention which show Lupe Mayorga starred in"
+  },
+  {
+    "id": "5ad2772cd7d075001a42953f",
+    "question": "What notion causes one to deal with classical variables instead of operators?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "the passages do not identify a notion that causes the use of classical variables instead of operators"
+  },
+  {
+    "id": "5acfeee177cf76001a686572",
+    "question": "What did the Islamic State proclaim itself in 2015?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0000 talks about what the Islamic State proclaim itself in 2014, not 2015"
+  },
+  {
+    "id": "5a666b43846392001a1e1c12",
+    "question": "What court case was eventually the result of Joseph Haas sending and e-mail to the New Hampshire city council?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "Haas's arrest is mentioned in doc_0024, but no resulting court case is identified."
+  },
+  {
+    "id": "5a822dc931013a001a335299",
+    "question": "What two honors were given out more frequently in 2005?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "No two honors are identified as being awarded more frequently in 2005"
+  },
+  {
+    "id": "5ad21646d7d075001a4283c5",
+    "question": "What element has a symbol number of 8?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0038 mentions that Oxygen is a chemical element with symbol O and atomic number 8."
+  },
+  {
+    "id": "5ad03efa77cf76001a686edd",
+    "question": "If none of Parliament agrees to the general principals of the bill, it proceeds to what Stage?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0046 states that a bill proceeds to Stage 2 if Parliament agrees to its general principles. The question reverses this condition."
+  },
+  {
+    "id": "5ad262aad7d075001a4290c2",
+    "question": "What was persistent unemployment have a positive effect on?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0034 talks about a negative impact of unemployment, not a positive one"
+  },
+  {
+    "id": "5ad3fabc604f3c001a3ffb1f",
+    "question": "Where were non-condensing direct-drive locomotives notably used for fast passenger ships?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0072 states that non-condensing direct-drive locomotives were used for express passenger rail services in Britain, not fast passenger ships"
+  },
+  {
+    "id": "5a3e4a34378766001a002552",
+    "question": "Which study suggests that previous estimates were overstated?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0006 describes a study on projected sea-level rises suggesting that previous IPCC estimates understated the risks, not overstated them."
+  },
+  {
+    "id": "5a665870846392001a1e1af7",
+    "question": "What did Harvey Wheeler direct the Hungarians to do?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0036 attributes the Hungarian revolutionary civil disobedience movement to Ferenc Deák, not Harvey Wheeler"
+  },
+  {
+    "id": "5ad043a977cf76001a686f38",
+    "question": "What method is used in tallying votes in the first vote of the ballot?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0069 identifies the d'Hondt method as the system used to allocate seats based on the second ballot vote, but he question asks about the first vote."
+  },
+  {
+    "id": "5a823e6f31013a001a335330",
+    "question": "What position was Walter Camp on Harvard's football team?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0019 identifies Walter Camp as a former captain of Yale's football team, not Harvard's."
+  },
+  {
+    "id": "5ad4d2d65b96ef001a10a1f9",
+    "question": "What has a stronger association with the MHC:antigen complex than killer T cells?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0020 states that helper T cells have a weaker association with the MHC:antigen complex than killer T cells, not a stronger one"
+  },
+  {
+    "id": "5ad03b0b77cf76001a686e90",
+    "question": "Some people describe what between individuals or groups as non-imperialism or non-colonialism?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0043 identifies internal strife between people groups as a form of imperialism or colonialism, not non-imperialism or non-colonialism."
+  },
+  {
+    "id": "5ad3cb62604f3c001a3ff112",
+    "question": "In what year was the Rumford engine patented?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0055 states that the Corliss steam engine was patented in 1849 and that Corliss received the Rumford Medal. The passage does not identify a Rumford engine or provide its patent year."
+  },
+  {
+    "id": "5a1c836ab4fb5d0018714639",
+    "question": "What battle involve the Confederate Calvary in 1862?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0012 identifies the Battle of Cedar Creek as involving Confederate cavalry, but dates it to March 1864"
+  },
+  {
+    "id": "5a2ed136a83784001a7d24dd",
+    "question": "How many people died from the Black Death in Northern  Africa?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "None of the passages provide a death toll for Northern Africa"
+  },
+  {
+    "id": "5ad03f8077cf76001a686ee7",
+    "question": "\"Wrecking amendments\" are designed to encourage further what?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0047 states that wrecking amendments are designed to thwart further progress and consume parliamentary time, not encourage further progress"
+  },
+  {
+    "id": "5a38b819a4b263001a8c18c6",
+    "question": "How did developing new oil fields influence the US economy?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "However, none directly establishes how developing new oil fields affected the US economy"
+  },
+  {
+    "id": "5ad3ee2d604f3c001a3ff7e2",
+    "question": "Who did Robert lead agains Dyrrachium in 1107?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0042 states that Robert Guiscard led an army against Dyrrachium in 1081 and died in 1085. doc_0001 identifies his son Bohemond as the commander of the Norman campaign against Dyrrachium in 1107. The question incorrectly attributes the 1107 campaign to Robert."
+  },
+  {
+    "id": "5ad3ae14604f3c001a3fec3a",
+    "question": "What Viking groups were conquered by Rollo?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0008 lists Viking groups that formed part of Rollo's contingents, including Danes, Norwegians, Norse–Gaels, Orkney Vikings, and Anglo-Danes. It does not identify any Viking groups conquered by Rollo."
+  },
+  {
+    "id": "5acfebe477cf76001a6864d7",
+    "question": "Where did American troops remain stationed after Saddam's win?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0071 states that American troops remained stationed in Saudi Arabia after Saddam's defeat, not his victory."
+  },
+  {
+    "id": "5ad0426c77cf76001a686f1d",
+    "question": "A 60-minute long \"Question Time\" takes place at what time?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0039 states that themed Question Time begins at 2:30 p.m. and lasts 40 minutes, not 60 minutes."
+  },
+  {
+    "id": "5ad15b19645df0001a2d187e",
+    "question": "Who riled that member stated could not restrict a company from moving its seat of business without infringing TFEU article 49?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "doc_0340 states that the Court of Justice ruled member states could restrict companies from moving their seat of business without infringing TFEU Article 49. The question reverses this ruling by claiming such restrictions were prohibited. The passage does not identify a court that made the ruling described."
+  },
+  {
+    "id": "5a6395e668151a001a9223a4",
+    "question": "When was the heatwave in which Wimmera recorded its highest temperature?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "None of the passages provide an answer to the question"
+  },
+  {
+    "id": "5a2c1622bfd06b001a5ae9dd",
+    "question": "When did BSkyB announce it's intention to improve it's free-to-air digital channels?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "None of the passages provide an answer to the question"
+  },
+  {
+    "id": "5ad11374645df0001a2d0c6e",
+    "question": "What commission was found to have abused power in 1980's?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "None of the retrieved passages identify a commission found to have abused power in the 1980s."
+  },
+  {
+    "id": "5ad3f03c604f3c001a3ff82b",
+    "question": "How many crank rotations are there in a cylinder cycle?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "None of the passages reference the number of crank rotations in a cylinder cycle"
+  },
+  {
+    "id": "5ad3a8fe604f3c001a3feb05",
+    "question": "When did British government take land for development of Ohio Country?",
+    "answers": {
+      "text": [],
+      "answer_start": []
+    },
+    "is_impossible": true,
+    "screening_status": "pass",
+    "screening_method": "manual_review_of_top_10_semantic_and_top_10_bm25",
+    "screening_notes": "none of the passages establish when the British government took land for development of the Ohio Country."
+  }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "question_id": "572883153acd2414000dfa6f",
+    "question": "What Mongolian system did Kublai's government compromise with?",
+    "reference_document_id": "doc_0040",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572883153acd2414000dfa73",
+    "question": "Where were Persians more successful compared to Chinese in the Yuan?",
+    "reference_document_id": "doc_0040",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57266c015951b619008f7238",
+    "question": "What type of correlation was used previously to help date rock formations?",
+    "reference_document_id": "doc_0007",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57266c015951b619008f7237",
+    "question": "When was the ability to use radioactive isotopes to date rock formations developed?",
+    "reference_document_id": "doc_0007",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57293c246aef051400154bba",
+    "question": "What kind of people attend the IPCC meetings?",
+    "reference_document_id": "doc_0051",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57293c246aef051400154bb8",
+    "question": "Who is on the IPCC Panel?",
+    "reference_document_id": "doc_0051",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572650325951b619008f6fab",
+    "question": "Who backed policies that have solutions that sound good but have poor prospects?",
+    "reference_document_id": "doc_0057",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572650325951b619008f6faa",
+    "question": "There is criticism that the energy policies are expensive quick fixes that ignore which facts?",
+    "reference_document_id": "doc_0057",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572629c6271a42140099d6a3",
+    "question": "What did Donald Davies Develop",
+    "reference_document_id": "doc_0048",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572629c6271a42140099d6a4",
+    "question": "What did Davies call his system ",
+    "reference_document_id": "doc_0048",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56e1febfe3433e140042323a",
+    "question": "What is the example of another problem characterized by large instances that is routinely solved by SAT handlers employing efficient algorithms?",
+    "reference_document_id": "doc_0073",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56e1febfe3433e1400423237",
+    "question": "Despite the Presburger problem, and in view of intractability, what has been done to establish solutions in reasonable periods of time?",
+    "reference_document_id": "doc_0073",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572998673f37b319004784d7",
+    "question": "Other than 7 and 13, what other year interval do cicadas pupate? ",
+    "reference_document_id": "doc_0058",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572998673f37b319004784d6",
+    "question": "Where do cicadas spend the majority of their lives?",
+    "reference_document_id": "doc_0058",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572746addd62a815002e9a5e",
+    "question": "Along with non-governmental and nonstate schools, what is another name for private schools?",
+    "reference_document_id": "doc_0041",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572746addd62a815002e9a5f",
+    "question": "Along with sport and art, what is a type of talent scholarship?",
+    "reference_document_id": "doc_0041",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572900f73f37b31900477f6c",
+    "question": "Eicosanoids include what compounds that result in fever and blood vessel dilation?",
+    "reference_document_id": "doc_0028",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572900f73f37b31900477f6a",
+    "question": "What causes the symptoms of inflammation?",
+    "reference_document_id": "doc_0028",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572a0b0b6aef0514001551f7",
+    "question": "What receptors do tumor cells often have reduced concentrations of?",
+    "reference_document_id": "doc_0010",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572a0b0b6aef0514001551f9",
+    "question": "Cytokine TBF-B suppresses the activity of what cell types?",
+    "reference_document_id": "doc_0010",
+    "semantic_rank": 4,
+    "bm25_rank": 2,
+    "hybrid_rank": 2
+  },
+  {
+    "question_id": "571156152419e3140095559d",
+    "question": "What is the weight of a bushel of coal in pounds?",
+    "reference_document_id": "doc_0060",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "571156152419e3140095559b",
+    "question": "How was the efficiency of a steam engine typically evaluated?",
+    "reference_document_id": "doc_0060",
+    "semantic_rank": 2,
+    "bm25_rank": 3,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5729ef266aef05140015511d",
+    "question": "The development of Terra Preta allowed for what to happen in the Amazon Forest?",
+    "reference_document_id": "doc_0049",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5725cf3238643c19005acd61",
+    "question": "What is terra preta called?",
+    "reference_document_id": "doc_0049",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56e1c720e3433e140042316d",
+    "question": "Resources are constrained by hierarchy theorems to produce what?",
+    "reference_document_id": "doc_0014",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56e1c720e3433e140042316c",
+    "question": "What theorems are responsible for determining questions of time and space requirements?",
+    "reference_document_id": "doc_0014",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572a1ba46aef05140015528f",
+    "question": "How is unregistered property held in informal form?",
+    "reference_document_id": "doc_0026",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572a1ba46aef051400155292",
+    "question": "What can it sometimes take up to 14 years to get permission to build on?",
+    "reference_document_id": "doc_0026",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5728501aff5b5019007da16a",
+    "question": "Who took Isaacs place as Provost in 2016?",
+    "reference_document_id": "doc_0053",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5728501aff5b5019007da169",
+    "question": "What is the name of the Chairman of the Board of Trustees?",
+    "reference_document_id": "doc_0053",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5737a5931c456719005744e9",
+    "question": "What force changes an objects direction of travel?",
+    "reference_document_id": "doc_0075",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5737a5931c456719005744ea",
+    "question": "What is another word for centripetal force?",
+    "reference_document_id": "doc_0075",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57297547af94a219006aa45e",
+    "question": "How many primes were included in Derrick Norman Lehmer's list of prime numbers?",
+    "reference_document_id": "doc_0033",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57297547af94a219006aa45c",
+    "question": "Who included 1 as the first prime number in the mid 18th century?",
+    "reference_document_id": "doc_0033",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5710eb6fb654c5140001fa17",
+    "question": "What was the name of the first Huguenot outpost in South Carolina?",
+    "reference_document_id": "doc_0015",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5710eb6fb654c5140001fa18",
+    "question": "What present-day area was this settlement near?",
+    "reference_document_id": "doc_0015",
+    "semantic_rank": 3,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57284b904b864d19001648e3",
+    "question": "How many quadrangles does the Main Quadrangles have?",
+    "reference_document_id": "doc_0059",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57284b904b864d19001648e4",
+    "question": "Who helped designed the Main Quadrangles?",
+    "reference_document_id": "doc_0059",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5728705c2ca10214002da35a",
+    "question": "Where did Yesun Temur die?",
+    "reference_document_id": "doc_0074",
+    "semantic_rank": 1,
+    "bm25_rank": null,
+    "hybrid_rank": 2
+  },
+  {
+    "question_id": "5728705c2ca10214002da35e",
+    "question": "Who took the throne after Kusala's death?",
+    "reference_document_id": "doc_0074",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5706139252bb891400689866",
+    "question": "What kind of university is the California Institute of Technology?",
+    "reference_document_id": "doc_0052",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5706139252bb891400689865",
+    "question": "What kind of universities is the region famous for?",
+    "reference_document_id": "doc_0052",
+    "semantic_rank": 2,
+    "bm25_rank": 5,
+    "hybrid_rank": 2
+  },
+  {
+    "question_id": "56de148dcffd8e1900b4b5bd",
+    "question": "When did Dyrrachium  fall to the Normans?",
+    "reference_document_id": "doc_0042",
+    "semantic_rank": 10,
+    "bm25_rank": 1,
+    "hybrid_rank": 4
+  },
+  {
+    "question_id": "56de148dcffd8e1900b4b5bc",
+    "question": "What was the name of the count of Apulia ",
+    "reference_document_id": "doc_0042",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fffb1b2c2fd14005686f9",
+    "question": "What did Iqbal fear would weaken the spiritual foundations of Islam and Muslim society?",
+    "reference_document_id": "doc_0029",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fffb1b2c2fd14005686fa",
+    "question": "Iqbal worried that India's mostly Hindu population would do what to Muslim heritage and culture?",
+    "reference_document_id": "doc_0029",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5729e2316aef0514001550c8",
+    "question": "What is the estimate for the amount of tree species in the amazon tropical rain forest?",
+    "reference_document_id": "doc_0050",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5728349dff5b5019007d9f01",
+    "question": "The Amazon rainforest makes up what amount of Earth's rainforests?",
+    "reference_document_id": "doc_0050",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5733d249d058e614000b6331",
+    "question": "Who increased British military resources in colonies?",
+    "reference_document_id": "doc_0005",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5733d249d058e614000b6332",
+    "question": "How much resources were French placing in North America?",
+    "reference_document_id": "doc_0005",
+    "semantic_rank": 7,
+    "bm25_rank": null,
+    "hybrid_rank": null
+  },
+  {
+    "question_id": "5728eff82ca10214002daadf",
+    "question": "What separates the neuroimmune system and peripheral immune system in humans?",
+    "reference_document_id": "doc_0062",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5728eff82ca10214002daade",
+    "question": "Which part of the immune system protects the brain?",
+    "reference_document_id": "doc_0062",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fc8a904bcaa1900d76d20",
+    "question": "What topic do private bills typically have?",
+    "reference_document_id": "doc_0003",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fc8a904bcaa1900d76d21",
+    "question": "Who decides how land or property is allowed to be used?",
+    "reference_document_id": "doc_0003",
+    "semantic_rank": null,
+    "bm25_rank": 3,
+    "hybrid_rank": 4
+  },
+  {
+    "question_id": "572ff890a23a5019007fcbcd",
+    "question": "What is the term for closing off rivers that are no longer connected?",
+    "reference_document_id": "doc_0061",
+    "semantic_rank": 1,
+    "bm25_rank": null,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572ff890a23a5019007fcbcf",
+    "question": "What changed the Rhine's Delta?",
+    "reference_document_id": "doc_0061",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57284142ff5b5019007da00b",
+    "question": "Who helped pay for the university's first building structure? ",
+    "reference_document_id": "doc_0054",
+    "semantic_rank": 1,
+    "bm25_rank": 2,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57284142ff5b5019007da00a",
+    "question": "Who donated property to the University of Chicago?",
+    "reference_document_id": "doc_0054",
+    "semantic_rank": 1,
+    "bm25_rank": 2,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56e1c7e2cd28a01900c67b76",
+    "question": "Within what variable is L constrained according to the space hierarchy theorem?",
+    "reference_document_id": "doc_0068",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56e1c7e2cd28a01900c67b74",
+    "question": "What is the foundation for separation results within complexity classes?",
+    "reference_document_id": "doc_0068",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572885023acd2414000dfa85",
+    "question": "Why were Southern Chinese ranked lower?",
+    "reference_document_id": "doc_0067",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572885023acd2414000dfa83",
+    "question": "Which part of China had people ranked higher in the class system?",
+    "reference_document_id": "doc_0067",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56de4b074396321400ee2793",
+    "question": "What architecture type came after Norman in England?",
+    "reference_document_id": "doc_0021",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56de4b074396321400ee2794",
+    "question": "What architecture type came before Norman in England?",
+    "reference_document_id": "doc_0021",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5725d42a89a1e219009abf5a",
+    "question": "In what town did Bill Aiken grow up?",
+    "reference_document_id": "doc_0027",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5725d42a89a1e219009abf58",
+    "question": "Who wrote \"Walking in Fresno?\"",
+    "reference_document_id": "doc_0027",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "571ce5055efbb31900334e2d",
+    "question": "What si the comparison to sea level with the oxygen level in space suits?",
+    "reference_document_id": "doc_0009",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "571ce5055efbb31900334e2b",
+    "question": "What is the oxygen partial pressure of space suits?",
+    "reference_document_id": "doc_0009",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57377aac1c4567190057447c",
+    "question": "What type of measurements result under Schrodinger equations when using operators instead of Newtonian variables?",
+    "reference_document_id": "doc_0065",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57377aac1c4567190057447a",
+    "question": "What equation desribed the physics of force before the current Schrodinger equation?",
+    "reference_document_id": "doc_0065",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57302bd0b2c2fd14005689df",
+    "question": "What does the Islamic State lack from the international community?",
+    "reference_document_id": "doc_0000",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57302bd0b2c2fd14005689de",
+    "question": "How many people did the Islamic State control the territory of as of March 2015?",
+    "reference_document_id": "doc_0000",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5728284e3acd2414000df5cf",
+    "question": "Civil disobedience can occur when people speak about a certain topic that is deemed as?",
+    "reference_document_id": "doc_0024",
+    "semantic_rank": 3,
+    "bm25_rank": null,
+    "hybrid_rank": 8
+  },
+  {
+    "question_id": "5728e5f43acd2414000e0174",
+    "question": "What is one way of digital civil disobedience that can have far reaching consequences?",
+    "reference_document_id": "doc_0024",
+    "semantic_rank": 2,
+    "bm25_rank": 5,
+    "hybrid_rank": 4
+  },
+  {
+    "question_id": "5733f8dc4776f419006615fa",
+    "question": "Where did Johnson stop?",
+    "reference_document_id": "doc_0032",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5733f8dc4776f419006615f7",
+    "question": "Who was New France's governor?",
+    "reference_document_id": "doc_0032",
+    "semantic_rank": null,
+    "bm25_rank": 2,
+    "hybrid_rank": 7
+  },
+  {
+    "question_id": "5727d4922ca10214002d977d",
+    "question": "How many courses must undergraduates maintain for full time status?",
+    "reference_document_id": "doc_0018",
+    "semantic_rank": 3,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5727d4922ca10214002d977f",
+    "question": "From 2004 to 2005 Harvard reduced the number of students earning Latin honors from 90% to what?",
+    "reference_document_id": "doc_0018",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "571c3a685efbb31900334db3",
+    "question": "Of what group in the periodic table is oxygen a member?",
+    "reference_document_id": "doc_0038",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "571c3a685efbb31900334db4",
+    "question": "What type of compounds does oxygen most commonly form?",
+    "reference_document_id": "doc_0038",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fce13a23a5019007fca15",
+    "question": "If Parliament agrees in a vote to the general principle of a bill, what does it then proceed to?",
+    "reference_document_id": "doc_0046",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fce13a23a5019007fca14",
+    "question": "Where are bills typically gestated in Stage 1?",
+    "reference_document_id": "doc_0046",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572a0ecb1d04691400779719",
+    "question": "What was persistent unemployment have a negative effect on?",
+    "reference_document_id": "doc_0004",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572a0ecb1d0469140077971a",
+    "question": "Why does unemployment harm growth?",
+    "reference_document_id": "doc_0004",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "571166352419e314009555f5",
+    "question": "Where were non-condensing direct-drive locomotives notably used for fast passenger trains?",
+    "reference_document_id": "doc_0072",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "571166352419e314009555f4",
+    "question": "What is it called when steam propels a turbo generator with electric motor propulsion?",
+    "reference_document_id": "doc_0072",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5729fe5c3f37b31900478630",
+    "question": "In autoimmune disorders, the immune system doesn't distinguish between what types of cells?",
+    "reference_document_id": "doc_0037",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5729fe5c3f37b31900478632",
+    "question": "Under normal conditions, T cells and antibodies produce what kind of peptides?",
+    "reference_document_id": "doc_0037",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5733a45d4776f41900660f24",
+    "question": "What is Warsaw's symbol?",
+    "reference_document_id": "doc_0064",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5733a45d4776f41900660f27",
+    "question": "What does the sea monster with a female upper body hold in its claws?",
+    "reference_document_id": "doc_0064",
+    "semantic_rank": 5,
+    "bm25_rank": 1,
+    "hybrid_rank": 2
+  },
+  {
+    "question_id": "57264e2f708984140094c1e3",
+    "question": "How did scientists assess the DNA/RNA of yersinia pestis? ",
+    "reference_document_id": "doc_0022",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57264e2f708984140094c1e1",
+    "question": "When did the Plos Pathogens paper come out?",
+    "reference_document_id": "doc_0022",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fe41e04bcaa1900d76e4f",
+    "question": "The Rhine forms the border between Austria and what other country? ",
+    "reference_document_id": "doc_0034",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fe41e04bcaa1900d76e4b",
+    "question": "Where does the Rhine make a distinctive turn to the north? ",
+    "reference_document_id": "doc_0034",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572949306aef051400154c6b",
+    "question": "When was the Third Assessment Report published?",
+    "reference_document_id": "doc_0006",
+    "semantic_rank": 5,
+    "bm25_rank": 2,
+    "hybrid_rank": 2
+  },
+  {
+    "question_id": "572949306aef051400154c6a",
+    "question": "How much do researchers now think sea levels will rise from 1990 to 2100?",
+    "reference_document_id": "doc_0006",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5728202c4b864d19001644ee",
+    "question": "The Hungarians performed this civil disobedience under the direction of what person?",
+    "reference_document_id": "doc_0036",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5728e07e3acd2414000e00ed",
+    "question": "What famous Indian's actions were considered civil disobedience?",
+    "reference_document_id": "doc_0036",
+    "semantic_rank": 1,
+    "bm25_rank": 2,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5733f410d058e614000b6665",
+    "question": "How did King Louis XV respond to British plans?",
+    "reference_document_id": "doc_0035",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5733f410d058e614000b6664",
+    "question": "When did French learn about Braddock's plans?",
+    "reference_document_id": "doc_0035",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fda6fb2c2fd140056850b",
+    "question": "How are the total numbers of seats allocated to parties?",
+    "reference_document_id": "doc_0069",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fda6fb2c2fd140056850e",
+    "question": "What set is a seat added to after being allocated?",
+    "reference_document_id": "doc_0069",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5727db85ff5b5019007d96fc",
+    "question": "What was the first year that Yale and Harvard played football?",
+    "reference_document_id": "doc_0019",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5727db85ff5b5019007d96fd",
+    "question": "In what year did Harvard Stadium become the first ever concrete reinforced stadium in the country?",
+    "reference_document_id": "doc_0019",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57264e66dd62a815002e811b",
+    "question": "Ciliary rosettes pump water into what to control buoyancy?",
+    "reference_document_id": "doc_0031",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57264e66dd62a815002e811d",
+    "question": "What does the ciliary rosettes do to decease bulk and increase density?",
+    "reference_document_id": "doc_0031",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5729f4b41d0469140077968b",
+    "question": "What co-receptor recruits molecules inside the T cell that are responsible for cell activation?",
+    "reference_document_id": "doc_0020",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5729f4b41d0469140077968d",
+    "question": "The receptors on a killer T cell must bind to how many MHC: antigen complexes in order to activate the cell?",
+    "reference_document_id": "doc_0020",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57263ea0271a42140099d7c3",
+    "question": "What is  DECnet",
+    "reference_document_id": "doc_0011",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57263ea0271a42140099d7c5",
+    "question": "DEC originally had 3 layers but evolved into how many layers ",
+    "reference_document_id": "doc_0011",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57309bfb8ab72b1400f9c5e6",
+    "question": "Theories on imperialism use which country as a model?",
+    "reference_document_id": "doc_0023",
+    "semantic_rank": 2,
+    "bm25_rank": 2,
+    "hybrid_rank": 2
+  },
+  {
+    "question_id": "57309bfb8ab72b1400f9c5e8",
+    "question": "What was the idealized value of imperialism?",
+    "reference_document_id": "doc_0023",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5730bb522461fd1900a9d015",
+    "question": "Who does Edward Said say is being attacked by US imperialism?",
+    "reference_document_id": "doc_0043",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5730bb522461fd1900a9d013",
+    "question": "How many Africans were brought into the United States during the slave trade?",
+    "reference_document_id": "doc_0043",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5729fb003f37b31900478627",
+    "question": "What is partially responsible for weakened immune response in older individuals?",
+    "reference_document_id": "doc_0030",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5729fb003f37b31900478628",
+    "question": "As a person gets older, what does the skin produce less of?",
+    "reference_document_id": "doc_0030",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5711628a2419e314009555dd",
+    "question": "What was the ultimate development of the horizontal engine?",
+    "reference_document_id": "doc_0055",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5711628a2419e314009555e0",
+    "question": "What award was given to Corliss?",
+    "reference_document_id": "doc_0055",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "571154c72419e31400955588",
+    "question": "What marine engines were less efficient than steam turbines?",
+    "reference_document_id": "doc_0063",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "571154c72419e31400955589",
+    "question": "Along with diesel engines, what engines have overtaken steam engines for marine propulsion?",
+    "reference_document_id": "doc_0063",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5728128cff5b5019007d9c7a",
+    "question": "In what year was the battle that resulted from a Confederate cavalry unit attacking a Union expedition?",
+    "reference_document_id": "doc_0012",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5728128cff5b5019007d9c77",
+    "question": "What was the name of the battle that marked the first Confederate win in Florida?",
+    "reference_document_id": "doc_0012",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572654e2708984140094c2b8",
+    "question": "What did Biraben say about the plague in Europe?",
+    "reference_document_id": "doc_0066",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572654e2708984140094c2b9",
+    "question": "How many French people were lost to plague between 1628-31?",
+    "reference_document_id": "doc_0066",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fd1c4947a6a140053cd03",
+    "question": "How many parts does the consideration of a bill in Stage 3 have?",
+    "reference_document_id": "doc_0047",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "572fd1c4947a6a140053cd02",
+    "question": "What is the final stage of a bill in the Scottish Parliament?",
+    "reference_document_id": "doc_0047",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5733a1854776f41900660f0a",
+    "question": "Where can a tribute to the fall of Warsaw be found?",
+    "reference_document_id": "doc_0002",
+    "semantic_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5733a1854776f41900660f0b",
+    "question": "What museum preserves the memory of the crime?",
+    "reference_document_id": "doc_0002",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57287338ff5b5019007da236",
+    "question": "When was the Ming dynasty in power?",
+    "reference_document_id": "doc_0016",
+    "semantic_rank": 3,
+    "bm25_rank": 2,
+    "hybrid_rank": 2
+  },
+  {
+    "question_id": "57287338ff5b5019007da233",
+    "question": "What uprising began in 1351?",
+    "reference_document_id": "doc_0016",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5705e26d75f01819005e76d5",
+    "question": "Despite being traditionall described as \"eight counties\", how many counties does this region actually have?",
+    "reference_document_id": "doc_0045",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5705e26d75f01819005e76d7",
+    "question": "What are the ties that best described what the \"eight counties\" are based on?",
+    "reference_document_id": "doc_0045",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5726241189a1e219009ac2e2",
+    "question": "How long does it take for new areas to have significant oil production?",
+    "reference_document_id": "doc_0056",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5726241189a1e219009ac2e0",
+    "question": "Which problem consists of both  inflationary and deflationary impacts?",
+    "reference_document_id": "doc_0056",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56e1b62ecd28a01900c67aa3",
+    "question": "The time required to output an answer on a deterministic Turing machine is expressed as what?",
+    "reference_document_id": "doc_0013",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56e1b62ecd28a01900c67aa4",
+    "question": "Complexity theory classifies problems based on what primary attribute?",
+    "reference_document_id": "doc_0013",
+    "semantic_rank": 5,
+    "bm25_rank": 2,
+    "hybrid_rank": 3
+  },
+  {
+    "question_id": "56de15104396321400ee25b9",
+    "question": "What river was Petrela located by?",
+    "reference_document_id": "doc_0001",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56de15104396321400ee25b8",
+    "question": "Who was Robert's son?",
+    "reference_document_id": "doc_0001",
+    "semantic_rank": 10,
+    "bm25_rank": 1,
+    "hybrid_rank": 4
+  },
+  {
+    "question_id": "5733647e4776f419006609b0",
+    "question": "What fortification was built in the 19th century after the defeat of the November Uprising?",
+    "reference_document_id": "doc_0070",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "5733647e4776f419006609ae",
+    "question": "What commemorates Warsaw's heroic history?",
+    "reference_document_id": "doc_0070",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "570602fa52bb89140068979e",
+    "question": "Southern California's distinctive regions are divided culturally, politically and what other trait?",
+    "reference_document_id": "doc_0044",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "570602fa52bb89140068979f",
+    "question": "Outside of national recognition, what other kind of recognition do some of the cities get?",
+    "reference_document_id": "doc_0044",
+    "semantic_rank": 2,
+    "bm25_rank": 2,
+    "hybrid_rank": 2
+  },
+  {
+    "question_id": "5733da01d058e614000b63fa",
+    "question": "What areas did French recruit natives from?",
+    "reference_document_id": "doc_0017",
+    "semantic_rank": null,
+    "bm25_rank": 1,
+    "hybrid_rank": 3
+  },
+  {
+    "question_id": "5733da01d058e614000b63fb",
+    "question": "What tribes supported British?",
+    "reference_document_id": "doc_0017",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "56dde1d966d3e219004dad8d",
+    "question": "Who upon arriving gave the original viking settlers a common identity?",
+    "reference_document_id": "doc_0008",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57273d8bf1498d1400e8f4fe",
+    "question": "What are the three sectors of construction?",
+    "reference_document_id": "doc_0025",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "57273d8bf1498d1400e8f501",
+    "question": "Large public works, dams, bridges, highways, water/wastewater and utility distribution are under what construction sector?",
+    "reference_document_id": "doc_0025",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "573010fab2c2fd14005687d9",
+    "question": "What did Saudi Arabia try to repress to compensate for its loss of stature? ",
+    "reference_document_id": "doc_0071",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  },
+  {
+    "question_id": "573010fab2c2fd14005687da",
+    "question": "Where did a bloody civil war break out?",
+    "reference_document_id": "doc_0071",
+    "semantic_rank": null,
+    "bm25_rank": 1,
+    "hybrid_rank": 3
+  },
+  {
+    "question_id": "572fd7b8947a6a140053cd3d",
+    "question": "What may members question the First Minister about directly during First Minister's Question Time?",
+    "reference_document_id": "doc_0039",
+    "semantic_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1
+  }
+]

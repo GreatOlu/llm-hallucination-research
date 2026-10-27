@@ -1,3 +1,4 @@
 datasets
 pandas
 sentence_transformers
+rank-bm25

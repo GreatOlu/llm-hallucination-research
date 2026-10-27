@@ -1,4 +1,10 @@
 .venv/
+venv/
 __pycache__/
+*.pyc
 .env
+.env.*
 .DS_Store
+*.pt
+.cache/
+data/processed/embeddings/
