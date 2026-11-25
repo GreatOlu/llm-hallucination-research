@@ -1,0 +1,827 @@
+{
+  "config": {
+    "schema_version": 1,
+    "questions": [
+      {
+        "id": "572883153acd2414000dfa6f",
+        "question": "What Mongolian system did Kublai's government compromise with?",
+        "group": "answerable",
+        "reference_answers": [
+          "patrimonial feudalism",
+          "patrimonial feudalism",
+          "patrimonial feudalism"
+        ]
+      },
+      {
+        "id": "572883153acd2414000dfa73",
+        "question": "Where were Persians more successful compared to Chinese in the Yuan?",
+        "group": "answerable",
+        "reference_answers": [
+          "Ilkhanate",
+          "Ilkhanate",
+          "reaching the highest-post in the government"
+        ]
+      },
+      {
+        "id": "57266c015951b619008f7238",
+        "question": "What type of correlation was used previously to help date rock formations?",
+        "group": "answerable",
+        "reference_answers": [
+          "stratigraphic correlation",
+          "stratigraphic",
+          "stratigraphic",
+          "stratigraphic"
+        ]
+      },
+      {
+        "id": "5a59002d3e1742001a15cf3b",
+        "question": "Absolute ages had to be converted into what?",
+        "group": "unanswerable",
+        "reference_answers": []
+      },
+      {
+        "id": "5a3e2dc0378766001a0024c3",
+        "question": "Which non-governmental groups are participants of the plenary sessions?",
+        "group": "unanswerable",
+        "reference_answers": []
+      }
+    ],
+    "conditions": [
+      "baseline",
+      "hallucination_aware",
+      "rag",
+      "rag_hallucination_aware"
+    ],
+    "retriever": {
+      "name": "HybridRetriever",
+      "top_k": 5,
+      "rrf_k": 60,
+      "candidate_k": 10
+    },
+    "max_output_tokens": 200,
+    "source_hashes": {
+      "data/processed/answerable_questions.json": "951d95cc5b5b87f2f8fc27d8e4c90b1233dc94ae6f8e643f90fd59d33bf7f9fc",
+      "data/processed/unanswerable_questions.json": "c286bc591b554c77f22a07872f43d14497c1efc0fc0aea9ca1656a4ca03fc4a9",
+      "data/processed/knowledge_base.json": "6aef5c93db929d000ecd4a1b7c21a5beca9e6f37dc6c00c93da9817244ea9980",
+      "src/experiments/prompts.py": "8b52e8338810c745a8899931717fff60f025810bc4850ef36c85877951ddc5d5",
+      "src/experiments/llm_client.py": "ee94e0eab3b0657eabcb6f1eab3bd51be75d182a760422011ec6f70252a0ca47",
+      "src/retrieval/hybrid_search.py": "107fe80549815efce5c81f2cd70dcd6e53b993a394f45d9fd7a4a76cfd555305",
+      "src/retrieval/semantic_search.py": "c857b468da3d0698c7214d96ffbe281792c7b891d8b1052c3bfadef2f24df61a",
+      "src/retrieval/bm25_search.py": "0c8f8ca805563cf60f22bc0b3b864f6082570c92157255114f0c8e30483b8cbf"
+    }
+  },
+  "config_hash": "343376f701759e434f8963128de2301c63e78e2e401a9298d682c28b9b1a4b38",
+  "model": "gpt-6-luna",
+  "records": [
+    {
+      "question_id": "572883153acd2414000dfa6f",
+      "question": "What Mongolian system did Kublai's government compromise with?",
+      "group": "answerable",
+      "reference_answers": [
+        "patrimonial feudalism",
+        "patrimonial feudalism",
+        "patrimonial feudalism"
+      ],
+      "condition": "baseline",
+      "model": "gpt-6-luna",
+      "prompt": "Question: What Mongolian system did Kublai's government compromise with?\nAnswer:",
+      "retrieved_document_ids": [],
+      "retrieved_passages": [],
+      "status": "empty_response",
+      "answer": "",
+      "input_tokens": 23,
+      "output_tokens": 200,
+      "error": {
+        "type": "EmptyResponse",
+        "message": "No answer text; inspect response status and token usage."
+      },
+      "started_at": "2026-11-17T15:08:16.903810+00:00",
+      "response_model": "gpt-6-luna",
+      "response_id": "resp_0960623e7c60a073006afc6de290e487d28f045b77d855221a",
+      "response_status": "incomplete",
+      "finished_at": "2026-11-17T15:08:21.741474+00:00"
+    },
+    {
+      "question_id": "572883153acd2414000dfa6f",
+      "question": "What Mongolian system did Kublai's government compromise with?",
+      "group": "answerable",
+      "reference_answers": [
+        "patrimonial feudalism",
+        "patrimonial feudalism",
+        "patrimonial feudalism"
+      ],
+      "condition": "hallucination_aware",
+      "model": "gpt-6-luna",
+      "prompt": "Answer the question only when you have sufficient information.\nDo not invent facts or make unsupported claims.\nIf you are uncertain or cannot determine the answer, respond:\n\"I don't know.\"\n\nQuestion: What Mongolian system did Kublai's government compromise with?\nAnswer:",
+      "retrieved_document_ids": [],
+      "retrieved_passages": [],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "572883153acd2414000dfa6f",
+      "question": "What Mongolian system did Kublai's government compromise with?",
+      "group": "answerable",
+      "reference_answers": [
+        "patrimonial feudalism",
+        "patrimonial feudalism",
+        "patrimonial feudalism"
+      ],
+      "condition": "rag",
+      "model": "gpt-6-luna",
+      "prompt": "Use the provided passages to answer the question.\n\nPassages:\n[Document 1]\nPolitically, the system of government created by Kublai Khan was the product of a compromise between Mongolian patrimonial feudalism and the traditional Chinese autocratic-bureaucratic system. Nevertheless, socially the educated Chinese elite were in general not given the degree of esteem that they had been accorded previously under native Chinese dynasties. Although the traditional Chinese elite were not given their share of power, the Mongols and the Semuren (various allied groups from Central Asia and the western end of the empire) largely remained strangers to the mainstream Chinese culture, and this dichotomy gave the Yuan regime a somewhat strong \"colonial\" coloration. The unequal treatment is possibly due to the fear of transferring power to the ethnic Chinese under their rule. The Mongols and Semuren were given certain advantages in the dynasty, and this would last even after the restoration of the imperial examination in the early 14th century. In general there were very few North Chinese or Southerners reaching the highest-post in the government compared with the possibility that Persians did so in the Ilkhanate. Later the Yongle Emperor of the Ming dynasty also mentioned the discrimination that existed during the Yuan dynasty. In response to an objection against the use of \"barbarians\" in his government, the Yongle Emperor answered: \"... Discrimination was used by the Mongols during the Yuan dynasty, who employed only \"Mongols and Tartars\" and discarded northern and southern Chinese and this was precisely the cause that brought disaster upon them\".\n\n[Document 2]\nThe Yuan dynasty (Chinese: 元朝; pinyin: Yuán Cháo), officially the Great Yuan (Chinese: 大元; pinyin: Dà Yuán; Mongolian: Yehe Yuan Ulus[a]), was the empire or ruling dynasty of China established by Kublai Khan, leader of the Mongolian Borjigin clan. Although the Mongols had ruled territories including today's North China for decades, it was not until 1271 that Kublai Khan officially proclaimed the dynasty in the traditional Chinese style. His realm was, by this point, isolated from the other khanates and controlled most of present-day China and its surrounding areas, including modern Mongolia and Korea. It was the first foreign dynasty to rule all of China and lasted until 1368, after which its Genghisid rulers returned to their Mongolian homeland and continued to rule the Northern Yuan dynasty. Some of the Mongolian Emperors of the Yuan mastered the Chinese language, while others only used their native language (i.e. Mongolian) and the 'Phags-pa script.\n\n[Document 3]\nThe system of bureaucracy created by Kublai Khan reflected various cultures in the empire, including that of the Han Chinese, Khitans, Jurchens, Mongols, and Tibetan Buddhists. While the official terminology of the institutions may indicate the government structure was almost purely that of native Chinese dynasties, the Yuan bureaucracy actually consisted of a mix of elements from different cultures. The Chinese-style elements of the bureaucracy mainly came from the native Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties. Chinese advisers such as Liu Bingzhong and Yao Shu gave strong influence to Kublai's early court, and the central government administration was established within the first decade of Kublai's reign. This government adopted the traditional Chinese tripartite division of authority among civil, military, and censorial offices, including the Central Secretariat (Zhongshu Sheng) to manage civil affairs, the Privy Council (Chinese: 樞密院) to manage military affairs, and the Censorate to conduct internal surveillance and inspection. The actual functions of both central and local government institutions, however, showed a major overlap between the civil and military jurisdictions, due to the Mongol traditional reliance on military institutions and offices as the core of governance. Nevertheless, such a civilian bureaucracy, with the Central Secretariat as the top institution that was (directly or indirectly) responsible for most other governmental agencies (such as the traditional Chinese-style Six Ministries), was created in China. At various times another central government institution called the Department of State Affairs (Shangshu Sheng) that mainly dealt with finance was established (such as during the reign of Külüg Khan or Emperor Wuzong), but was usually abandoned shortly afterwards.\n\n[Document 4]\nThere were many religions practiced during the Yuan dynasty, such as Buddhism, Islam, and Christianity. The establishment of the Yuan dynasty had dramatically increased the number of Muslims in China. However, unlike the western khanates, the Yuan dynasty never converted to Islam. Instead, Kublai Khan, the founder of the Yuan dynasty, favored Buddhism, especially the Tibetan variants. As a result, Tibetan Buddhism was established as the de facto state religion. The top-level department and government agency known as the Bureau of Buddhist and Tibetan Affairs (Xuanzheng Yuan) was set up in Khanbaliq (modern Beijing) to supervise Buddhist monks throughout the empire. Since Kublai Khan only esteemed the Sakya sect of Tibetan Buddhism, other religions became less important. He and his successors kept a Sakya Imperial Preceptor (Dishi) at court. Before the end of the Yuan dynasty, 14 leaders of the Sakya sect had held the post of Imperial Preceptor, thereby enjoying special power. Furthermore, Mongol patronage of Buddhism resulted in a number of monuments of Buddhist art. Mongolian Buddhist translations, almost all from Tibetan originals, began on a large scale after 1300. Many Mongols of the upper class such as the Jalayir and the Oronar nobles as well as the emperors also patronized Confucian scholars and institutions. A considerable number of Confucian and Chinese historical works were translated into the Mongolian language.\n\n[Document 5]\nInstability troubled the early years of Kublai Khan's reign. Ogedei's grandson Kaidu refused to submit to Kublai and threatened the western frontier of Kublai's domain. The hostile but weakened Song dynasty remained an obstacle in the south. Kublai secured the northeast border in 1259 by installing the hostage prince Wonjong as the ruler of Korea, making it a Mongol tributary state. Kublai was also threatened by domestic unrest. Li Tan, the son-in-law of a powerful official, instigated a revolt against Mongol rule in 1262. After successfully suppressing the revolt, Kublai curbed the influence of the Han Chinese advisers in his court. He feared that his dependence on Chinese officials left him vulnerable to future revolts and defections to the Song.\n\nQuestion: What Mongolian system did Kublai's government compromise with?\nAnswer:",
+      "retrieved_document_ids": [
+        "doc_0040",
+        "doc_0388",
+        "doc_0296",
+        "doc_0326",
+        "doc_0456"
+      ],
+      "retrieved_passages": [
+        {
+          "document_id": "doc_0040",
+          "title": "Yuan_dynasty",
+          "context": "Politically, the system of government created by Kublai Khan was the product of a compromise between Mongolian patrimonial feudalism and the traditional Chinese autocratic-bureaucratic system. Nevertheless, socially the educated Chinese elite were in general not given the degree of esteem that they had been accorded previously under native Chinese dynasties. Although the traditional Chinese elite were not given their share of power, the Mongols and the Semuren (various allied groups from Central Asia and the western end of the empire) largely remained strangers to the mainstream Chinese culture, and this dichotomy gave the Yuan regime a somewhat strong \"colonial\" coloration. The unequal treatment is possibly due to the fear of transferring power to the ethnic Chinese under their rule. The Mongols and Semuren were given certain advantages in the dynasty, and this would last even after the restoration of the imperial examination in the early 14th century. In general there were very few North Chinese or Southerners reaching the highest-post in the government compared with the possibility that Persians did so in the Ilkhanate. Later the Yongle Emperor of the Ming dynasty also mentioned the discrimination that existed during the Yuan dynasty. In response to an objection against the use of \"barbarians\" in his government, the Yongle Emperor answered: \"... Discrimination was used by the Mongols during the Yuan dynasty, who employed only \"Mongols and Tartars\" and discarded northern and southern Chinese and this was precisely the cause that brought disaster upon them\".",
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "document_id": "doc_0388",
+          "title": "Yuan_dynasty",
+          "context": "The Yuan dynasty (Chinese: 元朝; pinyin: Yuán Cháo), officially the Great Yuan (Chinese: 大元; pinyin: Dà Yuán; Mongolian: Yehe Yuan Ulus[a]), was the empire or ruling dynasty of China established by Kublai Khan, leader of the Mongolian Borjigin clan. Although the Mongols had ruled territories including today's North China for decades, it was not until 1271 that Kublai Khan officially proclaimed the dynasty in the traditional Chinese style. His realm was, by this point, isolated from the other khanates and controlled most of present-day China and its surrounding areas, including modern Mongolia and Korea. It was the first foreign dynasty to rule all of China and lasted until 1368, after which its Genghisid rulers returned to their Mongolian homeland and continued to rule the Northern Yuan dynasty. Some of the Mongolian Emperors of the Yuan mastered the Chinese language, while others only used their native language (i.e. Mongolian) and the 'Phags-pa script.",
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "document_id": "doc_0296",
+          "title": "Yuan_dynasty",
+          "context": "The system of bureaucracy created by Kublai Khan reflected various cultures in the empire, including that of the Han Chinese, Khitans, Jurchens, Mongols, and Tibetan Buddhists. While the official terminology of the institutions may indicate the government structure was almost purely that of native Chinese dynasties, the Yuan bureaucracy actually consisted of a mix of elements from different cultures. The Chinese-style elements of the bureaucracy mainly came from the native Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties. Chinese advisers such as Liu Bingzhong and Yao Shu gave strong influence to Kublai's early court, and the central government administration was established within the first decade of Kublai's reign. This government adopted the traditional Chinese tripartite division of authority among civil, military, and censorial offices, including the Central Secretariat (Zhongshu Sheng) to manage civil affairs, the Privy Council (Chinese: 樞密院) to manage military affairs, and the Censorate to conduct internal surveillance and inspection. The actual functions of both central and local government institutions, however, showed a major overlap between the civil and military jurisdictions, due to the Mongol traditional reliance on military institutions and offices as the core of governance. Nevertheless, such a civilian bureaucracy, with the Central Secretariat as the top institution that was (directly or indirectly) responsible for most other governmental agencies (such as the traditional Chinese-style Six Ministries), was created in China. At various times another central government institution called the Department of State Affairs (Shangshu Sheng) that mainly dealt with finance was established (such as during the reign of Külüg Khan or Emperor Wuzong), but was usually abandoned shortly afterwards.",
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "document_id": "doc_0326",
+          "title": "Yuan_dynasty",
+          "context": "There were many religions practiced during the Yuan dynasty, such as Buddhism, Islam, and Christianity. The establishment of the Yuan dynasty had dramatically increased the number of Muslims in China. However, unlike the western khanates, the Yuan dynasty never converted to Islam. Instead, Kublai Khan, the founder of the Yuan dynasty, favored Buddhism, especially the Tibetan variants. As a result, Tibetan Buddhism was established as the de facto state religion. The top-level department and government agency known as the Bureau of Buddhist and Tibetan Affairs (Xuanzheng Yuan) was set up in Khanbaliq (modern Beijing) to supervise Buddhist monks throughout the empire. Since Kublai Khan only esteemed the Sakya sect of Tibetan Buddhism, other religions became less important. He and his successors kept a Sakya Imperial Preceptor (Dishi) at court. Before the end of the Yuan dynasty, 14 leaders of the Sakya sect had held the post of Imperial Preceptor, thereby enjoying special power. Furthermore, Mongol patronage of Buddhism resulted in a number of monuments of Buddhist art. Mongolian Buddhist translations, almost all from Tibetan originals, began on a large scale after 1300. Many Mongols of the upper class such as the Jalayir and the Oronar nobles as well as the emperors also patronized Confucian scholars and institutions. A considerable number of Confucian and Chinese historical works were translated into the Mongolian language.",
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "document_id": "doc_0456",
+          "title": "Yuan_dynasty",
+          "context": "Instability troubled the early years of Kublai Khan's reign. Ogedei's grandson Kaidu refused to submit to Kublai and threatened the western frontier of Kublai's domain. The hostile but weakened Song dynasty remained an obstacle in the south. Kublai secured the northeast border in 1259 by installing the hostage prince Wonjong as the ruler of Korea, making it a Mongol tributary state. Kublai was also threatened by domestic unrest. Li Tan, the son-in-law of a powerful official, instigated a revolt against Mongol rule in 1262. After successfully suppressing the revolt, Kublai curbed the influence of the Han Chinese advisers in his court. He feared that his dependence on Chinese officials left him vulnerable to future revolts and defections to the Song.",
+          "rrf_score": 0.031099324975891997
+        }
+      ],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "572883153acd2414000dfa6f",
+      "question": "What Mongolian system did Kublai's government compromise with?",
+      "group": "answerable",
+      "reference_answers": [
+        "patrimonial feudalism",
+        "patrimonial feudalism",
+        "patrimonial feudalism"
+      ],
+      "condition": "rag_hallucination_aware",
+      "model": "gpt-6-luna",
+      "prompt": "Answer the question only when you have sufficient information.\nDo not invent facts or make unsupported claims.\nIf you are uncertain or cannot determine the answer, respond:\n\"I don't know.\"\n\nUse the provided passages to answer the question.\n\nPassages:\n[Document 1]\nPolitically, the system of government created by Kublai Khan was the product of a compromise between Mongolian patrimonial feudalism and the traditional Chinese autocratic-bureaucratic system. Nevertheless, socially the educated Chinese elite were in general not given the degree of esteem that they had been accorded previously under native Chinese dynasties. Although the traditional Chinese elite were not given their share of power, the Mongols and the Semuren (various allied groups from Central Asia and the western end of the empire) largely remained strangers to the mainstream Chinese culture, and this dichotomy gave the Yuan regime a somewhat strong \"colonial\" coloration. The unequal treatment is possibly due to the fear of transferring power to the ethnic Chinese under their rule. The Mongols and Semuren were given certain advantages in the dynasty, and this would last even after the restoration of the imperial examination in the early 14th century. In general there were very few North Chinese or Southerners reaching the highest-post in the government compared with the possibility that Persians did so in the Ilkhanate. Later the Yongle Emperor of the Ming dynasty also mentioned the discrimination that existed during the Yuan dynasty. In response to an objection against the use of \"barbarians\" in his government, the Yongle Emperor answered: \"... Discrimination was used by the Mongols during the Yuan dynasty, who employed only \"Mongols and Tartars\" and discarded northern and southern Chinese and this was precisely the cause that brought disaster upon them\".\n\n[Document 2]\nThe Yuan dynasty (Chinese: 元朝; pinyin: Yuán Cháo), officially the Great Yuan (Chinese: 大元; pinyin: Dà Yuán; Mongolian: Yehe Yuan Ulus[a]), was the empire or ruling dynasty of China established by Kublai Khan, leader of the Mongolian Borjigin clan. Although the Mongols had ruled territories including today's North China for decades, it was not until 1271 that Kublai Khan officially proclaimed the dynasty in the traditional Chinese style. His realm was, by this point, isolated from the other khanates and controlled most of present-day China and its surrounding areas, including modern Mongolia and Korea. It was the first foreign dynasty to rule all of China and lasted until 1368, after which its Genghisid rulers returned to their Mongolian homeland and continued to rule the Northern Yuan dynasty. Some of the Mongolian Emperors of the Yuan mastered the Chinese language, while others only used their native language (i.e. Mongolian) and the 'Phags-pa script.\n\n[Document 3]\nThe system of bureaucracy created by Kublai Khan reflected various cultures in the empire, including that of the Han Chinese, Khitans, Jurchens, Mongols, and Tibetan Buddhists. While the official terminology of the institutions may indicate the government structure was almost purely that of native Chinese dynasties, the Yuan bureaucracy actually consisted of a mix of elements from different cultures. The Chinese-style elements of the bureaucracy mainly came from the native Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties. Chinese advisers such as Liu Bingzhong and Yao Shu gave strong influence to Kublai's early court, and the central government administration was established within the first decade of Kublai's reign. This government adopted the traditional Chinese tripartite division of authority among civil, military, and censorial offices, including the Central Secretariat (Zhongshu Sheng) to manage civil affairs, the Privy Council (Chinese: 樞密院) to manage military affairs, and the Censorate to conduct internal surveillance and inspection. The actual functions of both central and local government institutions, however, showed a major overlap between the civil and military jurisdictions, due to the Mongol traditional reliance on military institutions and offices as the core of governance. Nevertheless, such a civilian bureaucracy, with the Central Secretariat as the top institution that was (directly or indirectly) responsible for most other governmental agencies (such as the traditional Chinese-style Six Ministries), was created in China. At various times another central government institution called the Department of State Affairs (Shangshu Sheng) that mainly dealt with finance was established (such as during the reign of Külüg Khan or Emperor Wuzong), but was usually abandoned shortly afterwards.\n\n[Document 4]\nThere were many religions practiced during the Yuan dynasty, such as Buddhism, Islam, and Christianity. The establishment of the Yuan dynasty had dramatically increased the number of Muslims in China. However, unlike the western khanates, the Yuan dynasty never converted to Islam. Instead, Kublai Khan, the founder of the Yuan dynasty, favored Buddhism, especially the Tibetan variants. As a result, Tibetan Buddhism was established as the de facto state religion. The top-level department and government agency known as the Bureau of Buddhist and Tibetan Affairs (Xuanzheng Yuan) was set up in Khanbaliq (modern Beijing) to supervise Buddhist monks throughout the empire. Since Kublai Khan only esteemed the Sakya sect of Tibetan Buddhism, other religions became less important. He and his successors kept a Sakya Imperial Preceptor (Dishi) at court. Before the end of the Yuan dynasty, 14 leaders of the Sakya sect had held the post of Imperial Preceptor, thereby enjoying special power. Furthermore, Mongol patronage of Buddhism resulted in a number of monuments of Buddhist art. Mongolian Buddhist translations, almost all from Tibetan originals, began on a large scale after 1300. Many Mongols of the upper class such as the Jalayir and the Oronar nobles as well as the emperors also patronized Confucian scholars and institutions. A considerable number of Confucian and Chinese historical works were translated into the Mongolian language.\n\n[Document 5]\nInstability troubled the early years of Kublai Khan's reign. Ogedei's grandson Kaidu refused to submit to Kublai and threatened the western frontier of Kublai's domain. The hostile but weakened Song dynasty remained an obstacle in the south. Kublai secured the northeast border in 1259 by installing the hostage prince Wonjong as the ruler of Korea, making it a Mongol tributary state. Kublai was also threatened by domestic unrest. Li Tan, the son-in-law of a powerful official, instigated a revolt against Mongol rule in 1262. After successfully suppressing the revolt, Kublai curbed the influence of the Han Chinese advisers in his court. He feared that his dependence on Chinese officials left him vulnerable to future revolts and defections to the Song.\n\nQuestion: What Mongolian system did Kublai's government compromise with?\nAnswer:",
+      "retrieved_document_ids": [
+        "doc_0040",
+        "doc_0388",
+        "doc_0296",
+        "doc_0326",
+        "doc_0456"
+      ],
+      "retrieved_passages": [
+        {
+          "document_id": "doc_0040",
+          "title": "Yuan_dynasty",
+          "context": "Politically, the system of government created by Kublai Khan was the product of a compromise between Mongolian patrimonial feudalism and the traditional Chinese autocratic-bureaucratic system. Nevertheless, socially the educated Chinese elite were in general not given the degree of esteem that they had been accorded previously under native Chinese dynasties. Although the traditional Chinese elite were not given their share of power, the Mongols and the Semuren (various allied groups from Central Asia and the western end of the empire) largely remained strangers to the mainstream Chinese culture, and this dichotomy gave the Yuan regime a somewhat strong \"colonial\" coloration. The unequal treatment is possibly due to the fear of transferring power to the ethnic Chinese under their rule. The Mongols and Semuren were given certain advantages in the dynasty, and this would last even after the restoration of the imperial examination in the early 14th century. In general there were very few North Chinese or Southerners reaching the highest-post in the government compared with the possibility that Persians did so in the Ilkhanate. Later the Yongle Emperor of the Ming dynasty also mentioned the discrimination that existed during the Yuan dynasty. In response to an objection against the use of \"barbarians\" in his government, the Yongle Emperor answered: \"... Discrimination was used by the Mongols during the Yuan dynasty, who employed only \"Mongols and Tartars\" and discarded northern and southern Chinese and this was precisely the cause that brought disaster upon them\".",
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "document_id": "doc_0388",
+          "title": "Yuan_dynasty",
+          "context": "The Yuan dynasty (Chinese: 元朝; pinyin: Yuán Cháo), officially the Great Yuan (Chinese: 大元; pinyin: Dà Yuán; Mongolian: Yehe Yuan Ulus[a]), was the empire or ruling dynasty of China established by Kublai Khan, leader of the Mongolian Borjigin clan. Although the Mongols had ruled territories including today's North China for decades, it was not until 1271 that Kublai Khan officially proclaimed the dynasty in the traditional Chinese style. His realm was, by this point, isolated from the other khanates and controlled most of present-day China and its surrounding areas, including modern Mongolia and Korea. It was the first foreign dynasty to rule all of China and lasted until 1368, after which its Genghisid rulers returned to their Mongolian homeland and continued to rule the Northern Yuan dynasty. Some of the Mongolian Emperors of the Yuan mastered the Chinese language, while others only used their native language (i.e. Mongolian) and the 'Phags-pa script.",
+          "rrf_score": 0.031754032258064516
+        },
+        {
+          "document_id": "doc_0296",
+          "title": "Yuan_dynasty",
+          "context": "The system of bureaucracy created by Kublai Khan reflected various cultures in the empire, including that of the Han Chinese, Khitans, Jurchens, Mongols, and Tibetan Buddhists. While the official terminology of the institutions may indicate the government structure was almost purely that of native Chinese dynasties, the Yuan bureaucracy actually consisted of a mix of elements from different cultures. The Chinese-style elements of the bureaucracy mainly came from the native Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties. Chinese advisers such as Liu Bingzhong and Yao Shu gave strong influence to Kublai's early court, and the central government administration was established within the first decade of Kublai's reign. This government adopted the traditional Chinese tripartite division of authority among civil, military, and censorial offices, including the Central Secretariat (Zhongshu Sheng) to manage civil affairs, the Privy Council (Chinese: 樞密院) to manage military affairs, and the Censorate to conduct internal surveillance and inspection. The actual functions of both central and local government institutions, however, showed a major overlap between the civil and military jurisdictions, due to the Mongol traditional reliance on military institutions and offices as the core of governance. Nevertheless, such a civilian bureaucracy, with the Central Secretariat as the top institution that was (directly or indirectly) responsible for most other governmental agencies (such as the traditional Chinese-style Six Ministries), was created in China. At various times another central government institution called the Department of State Affairs (Shangshu Sheng) that mainly dealt with finance was established (such as during the reign of Külüg Khan or Emperor Wuzong), but was usually abandoned shortly afterwards.",
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "document_id": "doc_0326",
+          "title": "Yuan_dynasty",
+          "context": "There were many religions practiced during the Yuan dynasty, such as Buddhism, Islam, and Christianity. The establishment of the Yuan dynasty had dramatically increased the number of Muslims in China. However, unlike the western khanates, the Yuan dynasty never converted to Islam. Instead, Kublai Khan, the founder of the Yuan dynasty, favored Buddhism, especially the Tibetan variants. As a result, Tibetan Buddhism was established as the de facto state religion. The top-level department and government agency known as the Bureau of Buddhist and Tibetan Affairs (Xuanzheng Yuan) was set up in Khanbaliq (modern Beijing) to supervise Buddhist monks throughout the empire. Since Kublai Khan only esteemed the Sakya sect of Tibetan Buddhism, other religions became less important. He and his successors kept a Sakya Imperial Preceptor (Dishi) at court. Before the end of the Yuan dynasty, 14 leaders of the Sakya sect had held the post of Imperial Preceptor, thereby enjoying special power. Furthermore, Mongol patronage of Buddhism resulted in a number of monuments of Buddhist art. Mongolian Buddhist translations, almost all from Tibetan originals, began on a large scale after 1300. Many Mongols of the upper class such as the Jalayir and the Oronar nobles as well as the emperors also patronized Confucian scholars and institutions. A considerable number of Confucian and Chinese historical works were translated into the Mongolian language.",
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "document_id": "doc_0456",
+          "title": "Yuan_dynasty",
+          "context": "Instability troubled the early years of Kublai Khan's reign. Ogedei's grandson Kaidu refused to submit to Kublai and threatened the western frontier of Kublai's domain. The hostile but weakened Song dynasty remained an obstacle in the south. Kublai secured the northeast border in 1259 by installing the hostage prince Wonjong as the ruler of Korea, making it a Mongol tributary state. Kublai was also threatened by domestic unrest. Li Tan, the son-in-law of a powerful official, instigated a revolt against Mongol rule in 1262. After successfully suppressing the revolt, Kublai curbed the influence of the Han Chinese advisers in his court. He feared that his dependence on Chinese officials left him vulnerable to future revolts and defections to the Song.",
+          "rrf_score": 0.031099324975891997
+        }
+      ],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "572883153acd2414000dfa73",
+      "question": "Where were Persians more successful compared to Chinese in the Yuan?",
+      "group": "answerable",
+      "reference_answers": [
+        "Ilkhanate",
+        "Ilkhanate",
+        "reaching the highest-post in the government"
+      ],
+      "condition": "baseline",
+      "model": "gpt-6-luna",
+      "prompt": "Question: Where were Persians more successful compared to Chinese in the Yuan?\nAnswer:",
+      "retrieved_document_ids": [],
+      "retrieved_passages": [],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "572883153acd2414000dfa73",
+      "question": "Where were Persians more successful compared to Chinese in the Yuan?",
+      "group": "answerable",
+      "reference_answers": [
+        "Ilkhanate",
+        "Ilkhanate",
+        "reaching the highest-post in the government"
+      ],
+      "condition": "hallucination_aware",
+      "model": "gpt-6-luna",
+      "prompt": "Answer the question only when you have sufficient information.\nDo not invent facts or make unsupported claims.\nIf you are uncertain or cannot determine the answer, respond:\n\"I don't know.\"\n\nQuestion: Where were Persians more successful compared to Chinese in the Yuan?\nAnswer:",
+      "retrieved_document_ids": [],
+      "retrieved_passages": [],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "572883153acd2414000dfa73",
+      "question": "Where were Persians more successful compared to Chinese in the Yuan?",
+      "group": "answerable",
+      "reference_answers": [
+        "Ilkhanate",
+        "Ilkhanate",
+        "reaching the highest-post in the government"
+      ],
+      "condition": "rag",
+      "model": "gpt-6-luna",
+      "prompt": "Use the provided passages to answer the question.\n\nPassages:\n[Document 1]\nPolitically, the system of government created by Kublai Khan was the product of a compromise between Mongolian patrimonial feudalism and the traditional Chinese autocratic-bureaucratic system. Nevertheless, socially the educated Chinese elite were in general not given the degree of esteem that they had been accorded previously under native Chinese dynasties. Although the traditional Chinese elite were not given their share of power, the Mongols and the Semuren (various allied groups from Central Asia and the western end of the empire) largely remained strangers to the mainstream Chinese culture, and this dichotomy gave the Yuan regime a somewhat strong \"colonial\" coloration. The unequal treatment is possibly due to the fear of transferring power to the ethnic Chinese under their rule. The Mongols and Semuren were given certain advantages in the dynasty, and this would last even after the restoration of the imperial examination in the early 14th century. In general there were very few North Chinese or Southerners reaching the highest-post in the government compared with the possibility that Persians did so in the Ilkhanate. Later the Yongle Emperor of the Ming dynasty also mentioned the discrimination that existed during the Yuan dynasty. In response to an objection against the use of \"barbarians\" in his government, the Yongle Emperor answered: \"... Discrimination was used by the Mongols during the Yuan dynasty, who employed only \"Mongols and Tartars\" and discarded northern and southern Chinese and this was precisely the cause that brought disaster upon them\".\n\n[Document 2]\nThe Yuan dynasty (Chinese: 元朝; pinyin: Yuán Cháo), officially the Great Yuan (Chinese: 大元; pinyin: Dà Yuán; Mongolian: Yehe Yuan Ulus[a]), was the empire or ruling dynasty of China established by Kublai Khan, leader of the Mongolian Borjigin clan. Although the Mongols had ruled territories including today's North China for decades, it was not until 1271 that Kublai Khan officially proclaimed the dynasty in the traditional Chinese style. His realm was, by this point, isolated from the other khanates and controlled most of present-day China and its surrounding areas, including modern Mongolia and Korea. It was the first foreign dynasty to rule all of China and lasted until 1368, after which its Genghisid rulers returned to their Mongolian homeland and continued to rule the Northern Yuan dynasty. Some of the Mongolian Emperors of the Yuan mastered the Chinese language, while others only used their native language (i.e. Mongolian) and the 'Phags-pa script.\n\n[Document 3]\nAt the same time the Mongols imported Central Asian Muslims to serve as administrators in China, the Mongols also sent Han Chinese and Khitans from China to serve as administrators over the Muslim population in Bukhara in Central Asia, using foreigners to curtail the power of the local peoples of both lands. Han Chinese were moved to Central Asian areas like Besh Baliq, Almaliq, and Samarqand by the Mongols where they worked as artisans and farmers. Alans were recruited into the Mongol forces with one unit called \"Right Alan Guard\" which was combined with \"recently surrendered\" soldiers, Mongols, and Chinese soldiers stationed in the area of the former Kingdom of Qocho and in Besh Balikh the Mongols established a Chinese military colony led by Chinese general Qi Kongzhi (Ch'i Kung-chih). After the Mongol conquest of Central Asia by Genghis Khan, foreigners were chosen as administrators and co-management with Chinese and Qara-Khitays (Khitans) of gardens and fields in Samarqand was put upon the Muslims as a requirement since Muslims were not allowed to manage without them. The Mongol appointed Governor of Samarqand was a Qara-Khitay (Khitan), held the title Taishi, familiar with Chinese culture his name was Ahai\n\n[Document 4]\nThere were many religions practiced during the Yuan dynasty, such as Buddhism, Islam, and Christianity. The establishment of the Yuan dynasty had dramatically increased the number of Muslims in China. However, unlike the western khanates, the Yuan dynasty never converted to Islam. Instead, Kublai Khan, the founder of the Yuan dynasty, favored Buddhism, especially the Tibetan variants. As a result, Tibetan Buddhism was established as the de facto state religion. The top-level department and government agency known as the Bureau of Buddhist and Tibetan Affairs (Xuanzheng Yuan) was set up in Khanbaliq (modern Beijing) to supervise Buddhist monks throughout the empire. Since Kublai Khan only esteemed the Sakya sect of Tibetan Buddhism, other religions became less important. He and his successors kept a Sakya Imperial Preceptor (Dishi) at court. Before the end of the Yuan dynasty, 14 leaders of the Sakya sect had held the post of Imperial Preceptor, thereby enjoying special power. Furthermore, Mongol patronage of Buddhism resulted in a number of monuments of Buddhist art. Mongolian Buddhist translations, almost all from Tibetan originals, began on a large scale after 1300. Many Mongols of the upper class such as the Jalayir and the Oronar nobles as well as the emperors also patronized Confucian scholars and institutions. A considerable number of Confucian and Chinese historical works were translated into the Mongolian language.\n\n[Document 5]\nThe reason for the order of the classes and the reason why people were placed in a certain class was the date they surrendered to the Mongols, and had nothing to do with their ethnicity. The earlier they surrendered to the Mongols, the higher they were placed, the more the held out, the lower they were ranked. The Northern Chinese were ranked higher and Southern Chinese were ranked lower because southern China withstood and fought to the last before caving in. Major commerce during this era gave rise to favorable conditions for private southern Chinese manufacturers and merchants.\n\nQuestion: Where were Persians more successful compared to Chinese in the Yuan?\nAnswer:",
+      "retrieved_document_ids": [
+        "doc_0040",
+        "doc_0388",
+        "doc_0478",
+        "doc_0326",
+        "doc_0067"
+      ],
+      "retrieved_passages": [
+        {
+          "document_id": "doc_0040",
+          "title": "Yuan_dynasty",
+          "context": "Politically, the system of government created by Kublai Khan was the product of a compromise between Mongolian patrimonial feudalism and the traditional Chinese autocratic-bureaucratic system. Nevertheless, socially the educated Chinese elite were in general not given the degree of esteem that they had been accorded previously under native Chinese dynasties. Although the traditional Chinese elite were not given their share of power, the Mongols and the Semuren (various allied groups from Central Asia and the western end of the empire) largely remained strangers to the mainstream Chinese culture, and this dichotomy gave the Yuan regime a somewhat strong \"colonial\" coloration. The unequal treatment is possibly due to the fear of transferring power to the ethnic Chinese under their rule. The Mongols and Semuren were given certain advantages in the dynasty, and this would last even after the restoration of the imperial examination in the early 14th century. In general there were very few North Chinese or Southerners reaching the highest-post in the government compared with the possibility that Persians did so in the Ilkhanate. Later the Yongle Emperor of the Ming dynasty also mentioned the discrimination that existed during the Yuan dynasty. In response to an objection against the use of \"barbarians\" in his government, the Yongle Emperor answered: \"... Discrimination was used by the Mongols during the Yuan dynasty, who employed only \"Mongols and Tartars\" and discarded northern and southern Chinese and this was precisely the cause that brought disaster upon them\".",
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "document_id": "doc_0388",
+          "title": "Yuan_dynasty",
+          "context": "The Yuan dynasty (Chinese: 元朝; pinyin: Yuán Cháo), officially the Great Yuan (Chinese: 大元; pinyin: Dà Yuán; Mongolian: Yehe Yuan Ulus[a]), was the empire or ruling dynasty of China established by Kublai Khan, leader of the Mongolian Borjigin clan. Although the Mongols had ruled territories including today's North China for decades, it was not until 1271 that Kublai Khan officially proclaimed the dynasty in the traditional Chinese style. His realm was, by this point, isolated from the other khanates and controlled most of present-day China and its surrounding areas, including modern Mongolia and Korea. It was the first foreign dynasty to rule all of China and lasted until 1368, after which its Genghisid rulers returned to their Mongolian homeland and continued to rule the Northern Yuan dynasty. Some of the Mongolian Emperors of the Yuan mastered the Chinese language, while others only used their native language (i.e. Mongolian) and the 'Phags-pa script.",
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "document_id": "doc_0478",
+          "title": "Yuan_dynasty",
+          "context": "At the same time the Mongols imported Central Asian Muslims to serve as administrators in China, the Mongols also sent Han Chinese and Khitans from China to serve as administrators over the Muslim population in Bukhara in Central Asia, using foreigners to curtail the power of the local peoples of both lands. Han Chinese were moved to Central Asian areas like Besh Baliq, Almaliq, and Samarqand by the Mongols where they worked as artisans and farmers. Alans were recruited into the Mongol forces with one unit called \"Right Alan Guard\" which was combined with \"recently surrendered\" soldiers, Mongols, and Chinese soldiers stationed in the area of the former Kingdom of Qocho and in Besh Balikh the Mongols established a Chinese military colony led by Chinese general Qi Kongzhi (Ch'i Kung-chih). After the Mongol conquest of Central Asia by Genghis Khan, foreigners were chosen as administrators and co-management with Chinese and Qara-Khitays (Khitans) of gardens and fields in Samarqand was put upon the Muslims as a requirement since Muslims were not allowed to manage without them. The Mongol appointed Governor of Samarqand was a Qara-Khitay (Khitan), held the title Taishi, familiar with Chinese culture his name was Ahai",
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "document_id": "doc_0326",
+          "title": "Yuan_dynasty",
+          "context": "There were many religions practiced during the Yuan dynasty, such as Buddhism, Islam, and Christianity. The establishment of the Yuan dynasty had dramatically increased the number of Muslims in China. However, unlike the western khanates, the Yuan dynasty never converted to Islam. Instead, Kublai Khan, the founder of the Yuan dynasty, favored Buddhism, especially the Tibetan variants. As a result, Tibetan Buddhism was established as the de facto state religion. The top-level department and government agency known as the Bureau of Buddhist and Tibetan Affairs (Xuanzheng Yuan) was set up in Khanbaliq (modern Beijing) to supervise Buddhist monks throughout the empire. Since Kublai Khan only esteemed the Sakya sect of Tibetan Buddhism, other religions became less important. He and his successors kept a Sakya Imperial Preceptor (Dishi) at court. Before the end of the Yuan dynasty, 14 leaders of the Sakya sect had held the post of Imperial Preceptor, thereby enjoying special power. Furthermore, Mongol patronage of Buddhism resulted in a number of monuments of Buddhist art. Mongolian Buddhist translations, almost all from Tibetan originals, began on a large scale after 1300. Many Mongols of the upper class such as the Jalayir and the Oronar nobles as well as the emperors also patronized Confucian scholars and institutions. A considerable number of Confucian and Chinese historical works were translated into the Mongolian language.",
+          "rrf_score": 0.03055037313432836
+        },
+        {
+          "document_id": "doc_0067",
+          "title": "Yuan_dynasty",
+          "context": "The reason for the order of the classes and the reason why people were placed in a certain class was the date they surrendered to the Mongols, and had nothing to do with their ethnicity. The earlier they surrendered to the Mongols, the higher they were placed, the more the held out, the lower they were ranked. The Northern Chinese were ranked higher and Southern Chinese were ranked lower because southern China withstood and fought to the last before caving in. Major commerce during this era gave rise to favorable conditions for private southern Chinese manufacturers and merchants.",
+          "rrf_score": 0.030330882352941176
+        }
+      ],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "572883153acd2414000dfa73",
+      "question": "Where were Persians more successful compared to Chinese in the Yuan?",
+      "group": "answerable",
+      "reference_answers": [
+        "Ilkhanate",
+        "Ilkhanate",
+        "reaching the highest-post in the government"
+      ],
+      "condition": "rag_hallucination_aware",
+      "model": "gpt-6-luna",
+      "prompt": "Answer the question only when you have sufficient information.\nDo not invent facts or make unsupported claims.\nIf you are uncertain or cannot determine the answer, respond:\n\"I don't know.\"\n\nUse the provided passages to answer the question.\n\nPassages:\n[Document 1]\nPolitically, the system of government created by Kublai Khan was the product of a compromise between Mongolian patrimonial feudalism and the traditional Chinese autocratic-bureaucratic system. Nevertheless, socially the educated Chinese elite were in general not given the degree of esteem that they had been accorded previously under native Chinese dynasties. Although the traditional Chinese elite were not given their share of power, the Mongols and the Semuren (various allied groups from Central Asia and the western end of the empire) largely remained strangers to the mainstream Chinese culture, and this dichotomy gave the Yuan regime a somewhat strong \"colonial\" coloration. The unequal treatment is possibly due to the fear of transferring power to the ethnic Chinese under their rule. The Mongols and Semuren were given certain advantages in the dynasty, and this would last even after the restoration of the imperial examination in the early 14th century. In general there were very few North Chinese or Southerners reaching the highest-post in the government compared with the possibility that Persians did so in the Ilkhanate. Later the Yongle Emperor of the Ming dynasty also mentioned the discrimination that existed during the Yuan dynasty. In response to an objection against the use of \"barbarians\" in his government, the Yongle Emperor answered: \"... Discrimination was used by the Mongols during the Yuan dynasty, who employed only \"Mongols and Tartars\" and discarded northern and southern Chinese and this was precisely the cause that brought disaster upon them\".\n\n[Document 2]\nThe Yuan dynasty (Chinese: 元朝; pinyin: Yuán Cháo), officially the Great Yuan (Chinese: 大元; pinyin: Dà Yuán; Mongolian: Yehe Yuan Ulus[a]), was the empire or ruling dynasty of China established by Kublai Khan, leader of the Mongolian Borjigin clan. Although the Mongols had ruled territories including today's North China for decades, it was not until 1271 that Kublai Khan officially proclaimed the dynasty in the traditional Chinese style. His realm was, by this point, isolated from the other khanates and controlled most of present-day China and its surrounding areas, including modern Mongolia and Korea. It was the first foreign dynasty to rule all of China and lasted until 1368, after which its Genghisid rulers returned to their Mongolian homeland and continued to rule the Northern Yuan dynasty. Some of the Mongolian Emperors of the Yuan mastered the Chinese language, while others only used their native language (i.e. Mongolian) and the 'Phags-pa script.\n\n[Document 3]\nAt the same time the Mongols imported Central Asian Muslims to serve as administrators in China, the Mongols also sent Han Chinese and Khitans from China to serve as administrators over the Muslim population in Bukhara in Central Asia, using foreigners to curtail the power of the local peoples of both lands. Han Chinese were moved to Central Asian areas like Besh Baliq, Almaliq, and Samarqand by the Mongols where they worked as artisans and farmers. Alans were recruited into the Mongol forces with one unit called \"Right Alan Guard\" which was combined with \"recently surrendered\" soldiers, Mongols, and Chinese soldiers stationed in the area of the former Kingdom of Qocho and in Besh Balikh the Mongols established a Chinese military colony led by Chinese general Qi Kongzhi (Ch'i Kung-chih). After the Mongol conquest of Central Asia by Genghis Khan, foreigners were chosen as administrators and co-management with Chinese and Qara-Khitays (Khitans) of gardens and fields in Samarqand was put upon the Muslims as a requirement since Muslims were not allowed to manage without them. The Mongol appointed Governor of Samarqand was a Qara-Khitay (Khitan), held the title Taishi, familiar with Chinese culture his name was Ahai\n\n[Document 4]\nThere were many religions practiced during the Yuan dynasty, such as Buddhism, Islam, and Christianity. The establishment of the Yuan dynasty had dramatically increased the number of Muslims in China. However, unlike the western khanates, the Yuan dynasty never converted to Islam. Instead, Kublai Khan, the founder of the Yuan dynasty, favored Buddhism, especially the Tibetan variants. As a result, Tibetan Buddhism was established as the de facto state religion. The top-level department and government agency known as the Bureau of Buddhist and Tibetan Affairs (Xuanzheng Yuan) was set up in Khanbaliq (modern Beijing) to supervise Buddhist monks throughout the empire. Since Kublai Khan only esteemed the Sakya sect of Tibetan Buddhism, other religions became less important. He and his successors kept a Sakya Imperial Preceptor (Dishi) at court. Before the end of the Yuan dynasty, 14 leaders of the Sakya sect had held the post of Imperial Preceptor, thereby enjoying special power. Furthermore, Mongol patronage of Buddhism resulted in a number of monuments of Buddhist art. Mongolian Buddhist translations, almost all from Tibetan originals, began on a large scale after 1300. Many Mongols of the upper class such as the Jalayir and the Oronar nobles as well as the emperors also patronized Confucian scholars and institutions. A considerable number of Confucian and Chinese historical works were translated into the Mongolian language.\n\n[Document 5]\nThe reason for the order of the classes and the reason why people were placed in a certain class was the date they surrendered to the Mongols, and had nothing to do with their ethnicity. The earlier they surrendered to the Mongols, the higher they were placed, the more the held out, the lower they were ranked. The Northern Chinese were ranked higher and Southern Chinese were ranked lower because southern China withstood and fought to the last before caving in. Major commerce during this era gave rise to favorable conditions for private southern Chinese manufacturers and merchants.\n\nQuestion: Where were Persians more successful compared to Chinese in the Yuan?\nAnswer:",
+      "retrieved_document_ids": [
+        "doc_0040",
+        "doc_0388",
+        "doc_0478",
+        "doc_0326",
+        "doc_0067"
+      ],
+      "retrieved_passages": [
+        {
+          "document_id": "doc_0040",
+          "title": "Yuan_dynasty",
+          "context": "Politically, the system of government created by Kublai Khan was the product of a compromise between Mongolian patrimonial feudalism and the traditional Chinese autocratic-bureaucratic system. Nevertheless, socially the educated Chinese elite were in general not given the degree of esteem that they had been accorded previously under native Chinese dynasties. Although the traditional Chinese elite were not given their share of power, the Mongols and the Semuren (various allied groups from Central Asia and the western end of the empire) largely remained strangers to the mainstream Chinese culture, and this dichotomy gave the Yuan regime a somewhat strong \"colonial\" coloration. The unequal treatment is possibly due to the fear of transferring power to the ethnic Chinese under their rule. The Mongols and Semuren were given certain advantages in the dynasty, and this would last even after the restoration of the imperial examination in the early 14th century. In general there were very few North Chinese or Southerners reaching the highest-post in the government compared with the possibility that Persians did so in the Ilkhanate. Later the Yongle Emperor of the Ming dynasty also mentioned the discrimination that existed during the Yuan dynasty. In response to an objection against the use of \"barbarians\" in his government, the Yongle Emperor answered: \"... Discrimination was used by the Mongols during the Yuan dynasty, who employed only \"Mongols and Tartars\" and discarded northern and southern Chinese and this was precisely the cause that brought disaster upon them\".",
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "document_id": "doc_0388",
+          "title": "Yuan_dynasty",
+          "context": "The Yuan dynasty (Chinese: 元朝; pinyin: Yuán Cháo), officially the Great Yuan (Chinese: 大元; pinyin: Dà Yuán; Mongolian: Yehe Yuan Ulus[a]), was the empire or ruling dynasty of China established by Kublai Khan, leader of the Mongolian Borjigin clan. Although the Mongols had ruled territories including today's North China for decades, it was not until 1271 that Kublai Khan officially proclaimed the dynasty in the traditional Chinese style. His realm was, by this point, isolated from the other khanates and controlled most of present-day China and its surrounding areas, including modern Mongolia and Korea. It was the first foreign dynasty to rule all of China and lasted until 1368, after which its Genghisid rulers returned to their Mongolian homeland and continued to rule the Northern Yuan dynasty. Some of the Mongolian Emperors of the Yuan mastered the Chinese language, while others only used their native language (i.e. Mongolian) and the 'Phags-pa script.",
+          "rrf_score": 0.03200204813108039
+        },
+        {
+          "document_id": "doc_0478",
+          "title": "Yuan_dynasty",
+          "context": "At the same time the Mongols imported Central Asian Muslims to serve as administrators in China, the Mongols also sent Han Chinese and Khitans from China to serve as administrators over the Muslim population in Bukhara in Central Asia, using foreigners to curtail the power of the local peoples of both lands. Han Chinese were moved to Central Asian areas like Besh Baliq, Almaliq, and Samarqand by the Mongols where they worked as artisans and farmers. Alans were recruited into the Mongol forces with one unit called \"Right Alan Guard\" which was combined with \"recently surrendered\" soldiers, Mongols, and Chinese soldiers stationed in the area of the former Kingdom of Qocho and in Besh Balikh the Mongols established a Chinese military colony led by Chinese general Qi Kongzhi (Ch'i Kung-chih). After the Mongol conquest of Central Asia by Genghis Khan, foreigners were chosen as administrators and co-management with Chinese and Qara-Khitays (Khitans) of gardens and fields in Samarqand was put upon the Muslims as a requirement since Muslims were not allowed to manage without them. The Mongol appointed Governor of Samarqand was a Qara-Khitay (Khitan), held the title Taishi, familiar with Chinese culture his name was Ahai",
+          "rrf_score": 0.03125763125763126
+        },
+        {
+          "document_id": "doc_0326",
+          "title": "Yuan_dynasty",
+          "context": "There were many religions practiced during the Yuan dynasty, such as Buddhism, Islam, and Christianity. The establishment of the Yuan dynasty had dramatically increased the number of Muslims in China. However, unlike the western khanates, the Yuan dynasty never converted to Islam. Instead, Kublai Khan, the founder of the Yuan dynasty, favored Buddhism, especially the Tibetan variants. As a result, Tibetan Buddhism was established as the de facto state religion. The top-level department and government agency known as the Bureau of Buddhist and Tibetan Affairs (Xuanzheng Yuan) was set up in Khanbaliq (modern Beijing) to supervise Buddhist monks throughout the empire. Since Kublai Khan only esteemed the Sakya sect of Tibetan Buddhism, other religions became less important. He and his successors kept a Sakya Imperial Preceptor (Dishi) at court. Before the end of the Yuan dynasty, 14 leaders of the Sakya sect had held the post of Imperial Preceptor, thereby enjoying special power. Furthermore, Mongol patronage of Buddhism resulted in a number of monuments of Buddhist art. Mongolian Buddhist translations, almost all from Tibetan originals, began on a large scale after 1300. Many Mongols of the upper class such as the Jalayir and the Oronar nobles as well as the emperors also patronized Confucian scholars and institutions. A considerable number of Confucian and Chinese historical works were translated into the Mongolian language.",
+          "rrf_score": 0.03055037313432836
+        },
+        {
+          "document_id": "doc_0067",
+          "title": "Yuan_dynasty",
+          "context": "The reason for the order of the classes and the reason why people were placed in a certain class was the date they surrendered to the Mongols, and had nothing to do with their ethnicity. The earlier they surrendered to the Mongols, the higher they were placed, the more the held out, the lower they were ranked. The Northern Chinese were ranked higher and Southern Chinese were ranked lower because southern China withstood and fought to the last before caving in. Major commerce during this era gave rise to favorable conditions for private southern Chinese manufacturers and merchants.",
+          "rrf_score": 0.030330882352941176
+        }
+      ],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "57266c015951b619008f7238",
+      "question": "What type of correlation was used previously to help date rock formations?",
+      "group": "answerable",
+      "reference_answers": [
+        "stratigraphic correlation",
+        "stratigraphic",
+        "stratigraphic",
+        "stratigraphic"
+      ],
+      "condition": "baseline",
+      "model": "gpt-6-luna",
+      "prompt": "Question: What type of correlation was used previously to help date rock formations?\nAnswer:",
+      "retrieved_document_ids": [],
+      "retrieved_passages": [],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "57266c015951b619008f7238",
+      "question": "What type of correlation was used previously to help date rock formations?",
+      "group": "answerable",
+      "reference_answers": [
+        "stratigraphic correlation",
+        "stratigraphic",
+        "stratigraphic",
+        "stratigraphic"
+      ],
+      "condition": "hallucination_aware",
+      "model": "gpt-6-luna",
+      "prompt": "Answer the question only when you have sufficient information.\nDo not invent facts or make unsupported claims.\nIf you are uncertain or cannot determine the answer, respond:\n\"I don't know.\"\n\nQuestion: What type of correlation was used previously to help date rock formations?\nAnswer:",
+      "retrieved_document_ids": [],
+      "retrieved_passages": [],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "57266c015951b619008f7238",
+      "question": "What type of correlation was used previously to help date rock formations?",
+      "group": "answerable",
+      "reference_answers": [
+        "stratigraphic correlation",
+        "stratigraphic",
+        "stratigraphic",
+        "stratigraphic"
+      ],
+      "condition": "rag",
+      "model": "gpt-6-luna",
+      "prompt": "Use the provided passages to answer the question.\n\nPassages:\n[Document 1]\nAt the beginning of the 20th century, important advancement in geological science was facilitated by the ability to obtain accurate absolute dates to geologic events using radioactive isotopes and other methods. This changed the understanding of geologic time. Previously, geologists could only use fossils and stratigraphic correlation to date sections of rock relative to one another. With isotopic dates it became possible to assign absolute ages to rock units, and these absolute dates could be applied to fossil sequences in which there was datable material, converting the old relative ages into new absolute ages.\n\n[Document 2]\nIn the laboratory, biostratigraphers analyze rock samples from outcrop and drill cores for the fossils found in them. These fossils help scientists to date the core and to understand the depositional environment in which the rock units formed. Geochronologists precisely date rocks within the stratigraphic section in order to provide better absolute bounds on the timing and rates of deposition. Magnetic stratigraphers look for signs of magnetic reversals in igneous rock units within the drill cores. Other scientists perform stable isotope studies on the rocks to gain information about past climate.\n\n[Document 3]\nWhen rock units are placed under horizontal compression, they shorten and become thicker. Because rock units, other than muds, do not significantly change in volume, this is accomplished in two primary ways: through faulting and folding. In the shallow crust, where brittle deformation can occur, thrust faults form, which cause deeper rock to move on top of shallower rock. Because deeper rock is often older, as noted by the principle of superposition, this can result in older rocks moving on top of younger ones. Movement along faults can result in folding, either because the faults are not planar or because rock layers are dragged along, forming drag folds as slip occurs along the fault. Deeper in the Earth, rocks behave plastically, and fold instead of faulting. These folds can either be those where the material in the center of the fold buckles upwards, creating \"antiforms\", or where it buckles downwards, creating \"synforms\". If the tops of the rock units within the folds remain pointing upwards, they are called anticlines and synclines, respectively. If some of the units in the fold are facing downward, the structure is called an overturned anticline or syncline, and if all of the rock units are overturned or the correct up-direction is unknown, they are simply called by the most general terms, antiforms and synforms.\n\n[Document 4]\nAll of these processes do not necessarily occur in a single environment, and do not necessarily occur in a single order. The Hawaiian Islands, for example, consist almost entirely of layered basaltic lava flows. The sedimentary sequences of the mid-continental United States and the Grand Canyon in the southwestern United States contain almost-undeformed stacks of sedimentary rocks that have remained in place since Cambrian time. Other areas are much more geologically complex. In the southwestern United States, sedimentary, volcanic, and intrusive rocks have been metamorphosed, faulted, foliated, and folded. Even older rocks, such as the Acasta gneiss of the Slave craton in northwestern Canada, the oldest known rock in the world have been metamorphosed to the point where their origin is undiscernable without laboratory analysis. In addition, these processes can occur in stages. In many places, the Grand Canyon in the southwestern United States being a very visible example, the lower rock units were metamorphosed and deformed, and then deformation ended and the upper, undeformed units were deposited. Although any amount of rock emplacement and rock deformation can occur, and they can occur any number of times, these concepts provide a guide to understanding the geological history of an area.\n\n[Document 5]\nThe addition of new rock units, both depositionally and intrusively, often occurs during deformation. Faulting and other deformational processes result in the creation of topographic gradients, causing material on the rock unit that is increasing in elevation to be eroded by hillslopes and channels. These sediments are deposited on the rock unit that is going down. Continual motion along the fault maintains the topographic gradient in spite of the movement of sediment, and continues to create accommodation space for the material to deposit. Deformational events are often also associated with volcanism and igneous activity. Volcanic ashes and lavas accumulate on the surface, and igneous intrusions enter from below. Dikes, long, planar igneous intrusions, enter along cracks, and therefore often form in large numbers in areas that are being actively deformed. This can result in the emplacement of dike swarms, such as those that are observable across the Canadian shield, or rings of dikes around the lava tube of a volcano.\n\nQuestion: What type of correlation was used previously to help date rock formations?\nAnswer:",
+      "retrieved_document_ids": [
+        "doc_0007",
+        "doc_0477",
+        "doc_0497",
+        "doc_0330",
+        "doc_0353"
+      ],
+      "retrieved_passages": [
+        {
+          "document_id": "doc_0007",
+          "title": "Geology",
+          "context": "At the beginning of the 20th century, important advancement in geological science was facilitated by the ability to obtain accurate absolute dates to geologic events using radioactive isotopes and other methods. This changed the understanding of geologic time. Previously, geologists could only use fossils and stratigraphic correlation to date sections of rock relative to one another. With isotopic dates it became possible to assign absolute ages to rock units, and these absolute dates could be applied to fossil sequences in which there was datable material, converting the old relative ages into new absolute ages.",
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "document_id": "doc_0477",
+          "title": "Geology",
+          "context": "In the laboratory, biostratigraphers analyze rock samples from outcrop and drill cores for the fossils found in them. These fossils help scientists to date the core and to understand the depositional environment in which the rock units formed. Geochronologists precisely date rocks within the stratigraphic section in order to provide better absolute bounds on the timing and rates of deposition. Magnetic stratigraphers look for signs of magnetic reversals in igneous rock units within the drill cores. Other scientists perform stable isotope studies on the rocks to gain information about past climate.",
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "document_id": "doc_0497",
+          "title": "Geology",
+          "context": "When rock units are placed under horizontal compression, they shorten and become thicker. Because rock units, other than muds, do not significantly change in volume, this is accomplished in two primary ways: through faulting and folding. In the shallow crust, where brittle deformation can occur, thrust faults form, which cause deeper rock to move on top of shallower rock. Because deeper rock is often older, as noted by the principle of superposition, this can result in older rocks moving on top of younger ones. Movement along faults can result in folding, either because the faults are not planar or because rock layers are dragged along, forming drag folds as slip occurs along the fault. Deeper in the Earth, rocks behave plastically, and fold instead of faulting. These folds can either be those where the material in the center of the fold buckles upwards, creating \"antiforms\", or where it buckles downwards, creating \"synforms\". If the tops of the rock units within the folds remain pointing upwards, they are called anticlines and synclines, respectively. If some of the units in the fold are facing downward, the structure is called an overturned anticline or syncline, and if all of the rock units are overturned or the correct up-direction is unknown, they are simply called by the most general terms, antiforms and synforms.",
+          "rrf_score": 0.030309988518943745
+        },
+        {
+          "document_id": "doc_0330",
+          "title": "Geology",
+          "context": "All of these processes do not necessarily occur in a single environment, and do not necessarily occur in a single order. The Hawaiian Islands, for example, consist almost entirely of layered basaltic lava flows. The sedimentary sequences of the mid-continental United States and the Grand Canyon in the southwestern United States contain almost-undeformed stacks of sedimentary rocks that have remained in place since Cambrian time. Other areas are much more geologically complex. In the southwestern United States, sedimentary, volcanic, and intrusive rocks have been metamorphosed, faulted, foliated, and folded. Even older rocks, such as the Acasta gneiss of the Slave craton in northwestern Canada, the oldest known rock in the world have been metamorphosed to the point where their origin is undiscernable without laboratory analysis. In addition, these processes can occur in stages. In many places, the Grand Canyon in the southwestern United States being a very visible example, the lower rock units were metamorphosed and deformed, and then deformation ended and the upper, undeformed units were deposited. Although any amount of rock emplacement and rock deformation can occur, and they can occur any number of times, these concepts provide a guide to understanding the geological history of an area.",
+          "rrf_score": 0.030117753623188408
+        },
+        {
+          "document_id": "doc_0353",
+          "title": "Geology",
+          "context": "The addition of new rock units, both depositionally and intrusively, often occurs during deformation. Faulting and other deformational processes result in the creation of topographic gradients, causing material on the rock unit that is increasing in elevation to be eroded by hillslopes and channels. These sediments are deposited on the rock unit that is going down. Continual motion along the fault maintains the topographic gradient in spite of the movement of sediment, and continues to create accommodation space for the material to deposit. Deformational events are often also associated with volcanism and igneous activity. Volcanic ashes and lavas accumulate on the surface, and igneous intrusions enter from below. Dikes, long, planar igneous intrusions, enter along cracks, and therefore often form in large numbers in areas that are being actively deformed. This can result in the emplacement of dike swarms, such as those that are observable across the Canadian shield, or rings of dikes around the lava tube of a volcano.",
+          "rrf_score": 0.03007688828584351
+        }
+      ],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "57266c015951b619008f7238",
+      "question": "What type of correlation was used previously to help date rock formations?",
+      "group": "answerable",
+      "reference_answers": [
+        "stratigraphic correlation",
+        "stratigraphic",
+        "stratigraphic",
+        "stratigraphic"
+      ],
+      "condition": "rag_hallucination_aware",
+      "model": "gpt-6-luna",
+      "prompt": "Answer the question only when you have sufficient information.\nDo not invent facts or make unsupported claims.\nIf you are uncertain or cannot determine the answer, respond:\n\"I don't know.\"\n\nUse the provided passages to answer the question.\n\nPassages:\n[Document 1]\nAt the beginning of the 20th century, important advancement in geological science was facilitated by the ability to obtain accurate absolute dates to geologic events using radioactive isotopes and other methods. This changed the understanding of geologic time. Previously, geologists could only use fossils and stratigraphic correlation to date sections of rock relative to one another. With isotopic dates it became possible to assign absolute ages to rock units, and these absolute dates could be applied to fossil sequences in which there was datable material, converting the old relative ages into new absolute ages.\n\n[Document 2]\nIn the laboratory, biostratigraphers analyze rock samples from outcrop and drill cores for the fossils found in them. These fossils help scientists to date the core and to understand the depositional environment in which the rock units formed. Geochronologists precisely date rocks within the stratigraphic section in order to provide better absolute bounds on the timing and rates of deposition. Magnetic stratigraphers look for signs of magnetic reversals in igneous rock units within the drill cores. Other scientists perform stable isotope studies on the rocks to gain information about past climate.\n\n[Document 3]\nWhen rock units are placed under horizontal compression, they shorten and become thicker. Because rock units, other than muds, do not significantly change in volume, this is accomplished in two primary ways: through faulting and folding. In the shallow crust, where brittle deformation can occur, thrust faults form, which cause deeper rock to move on top of shallower rock. Because deeper rock is often older, as noted by the principle of superposition, this can result in older rocks moving on top of younger ones. Movement along faults can result in folding, either because the faults are not planar or because rock layers are dragged along, forming drag folds as slip occurs along the fault. Deeper in the Earth, rocks behave plastically, and fold instead of faulting. These folds can either be those where the material in the center of the fold buckles upwards, creating \"antiforms\", or where it buckles downwards, creating \"synforms\". If the tops of the rock units within the folds remain pointing upwards, they are called anticlines and synclines, respectively. If some of the units in the fold are facing downward, the structure is called an overturned anticline or syncline, and if all of the rock units are overturned or the correct up-direction is unknown, they are simply called by the most general terms, antiforms and synforms.\n\n[Document 4]\nAll of these processes do not necessarily occur in a single environment, and do not necessarily occur in a single order. The Hawaiian Islands, for example, consist almost entirely of layered basaltic lava flows. The sedimentary sequences of the mid-continental United States and the Grand Canyon in the southwestern United States contain almost-undeformed stacks of sedimentary rocks that have remained in place since Cambrian time. Other areas are much more geologically complex. In the southwestern United States, sedimentary, volcanic, and intrusive rocks have been metamorphosed, faulted, foliated, and folded. Even older rocks, such as the Acasta gneiss of the Slave craton in northwestern Canada, the oldest known rock in the world have been metamorphosed to the point where their origin is undiscernable without laboratory analysis. In addition, these processes can occur in stages. In many places, the Grand Canyon in the southwestern United States being a very visible example, the lower rock units were metamorphosed and deformed, and then deformation ended and the upper, undeformed units were deposited. Although any amount of rock emplacement and rock deformation can occur, and they can occur any number of times, these concepts provide a guide to understanding the geological history of an area.\n\n[Document 5]\nThe addition of new rock units, both depositionally and intrusively, often occurs during deformation. Faulting and other deformational processes result in the creation of topographic gradients, causing material on the rock unit that is increasing in elevation to be eroded by hillslopes and channels. These sediments are deposited on the rock unit that is going down. Continual motion along the fault maintains the topographic gradient in spite of the movement of sediment, and continues to create accommodation space for the material to deposit. Deformational events are often also associated with volcanism and igneous activity. Volcanic ashes and lavas accumulate on the surface, and igneous intrusions enter from below. Dikes, long, planar igneous intrusions, enter along cracks, and therefore often form in large numbers in areas that are being actively deformed. This can result in the emplacement of dike swarms, such as those that are observable across the Canadian shield, or rings of dikes around the lava tube of a volcano.\n\nQuestion: What type of correlation was used previously to help date rock formations?\nAnswer:",
+      "retrieved_document_ids": [
+        "doc_0007",
+        "doc_0477",
+        "doc_0497",
+        "doc_0330",
+        "doc_0353"
+      ],
+      "retrieved_passages": [
+        {
+          "document_id": "doc_0007",
+          "title": "Geology",
+          "context": "At the beginning of the 20th century, important advancement in geological science was facilitated by the ability to obtain accurate absolute dates to geologic events using radioactive isotopes and other methods. This changed the understanding of geologic time. Previously, geologists could only use fossils and stratigraphic correlation to date sections of rock relative to one another. With isotopic dates it became possible to assign absolute ages to rock units, and these absolute dates could be applied to fossil sequences in which there was datable material, converting the old relative ages into new absolute ages.",
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "document_id": "doc_0477",
+          "title": "Geology",
+          "context": "In the laboratory, biostratigraphers analyze rock samples from outcrop and drill cores for the fossils found in them. These fossils help scientists to date the core and to understand the depositional environment in which the rock units formed. Geochronologists precisely date rocks within the stratigraphic section in order to provide better absolute bounds on the timing and rates of deposition. Magnetic stratigraphers look for signs of magnetic reversals in igneous rock units within the drill cores. Other scientists perform stable isotope studies on the rocks to gain information about past climate.",
+          "rrf_score": 0.03252247488101534
+        },
+        {
+          "document_id": "doc_0497",
+          "title": "Geology",
+          "context": "When rock units are placed under horizontal compression, they shorten and become thicker. Because rock units, other than muds, do not significantly change in volume, this is accomplished in two primary ways: through faulting and folding. In the shallow crust, where brittle deformation can occur, thrust faults form, which cause deeper rock to move on top of shallower rock. Because deeper rock is often older, as noted by the principle of superposition, this can result in older rocks moving on top of younger ones. Movement along faults can result in folding, either because the faults are not planar or because rock layers are dragged along, forming drag folds as slip occurs along the fault. Deeper in the Earth, rocks behave plastically, and fold instead of faulting. These folds can either be those where the material in the center of the fold buckles upwards, creating \"antiforms\", or where it buckles downwards, creating \"synforms\". If the tops of the rock units within the folds remain pointing upwards, they are called anticlines and synclines, respectively. If some of the units in the fold are facing downward, the structure is called an overturned anticline or syncline, and if all of the rock units are overturned or the correct up-direction is unknown, they are simply called by the most general terms, antiforms and synforms.",
+          "rrf_score": 0.030309988518943745
+        },
+        {
+          "document_id": "doc_0330",
+          "title": "Geology",
+          "context": "All of these processes do not necessarily occur in a single environment, and do not necessarily occur in a single order. The Hawaiian Islands, for example, consist almost entirely of layered basaltic lava flows. The sedimentary sequences of the mid-continental United States and the Grand Canyon in the southwestern United States contain almost-undeformed stacks of sedimentary rocks that have remained in place since Cambrian time. Other areas are much more geologically complex. In the southwestern United States, sedimentary, volcanic, and intrusive rocks have been metamorphosed, faulted, foliated, and folded. Even older rocks, such as the Acasta gneiss of the Slave craton in northwestern Canada, the oldest known rock in the world have been metamorphosed to the point where their origin is undiscernable without laboratory analysis. In addition, these processes can occur in stages. In many places, the Grand Canyon in the southwestern United States being a very visible example, the lower rock units were metamorphosed and deformed, and then deformation ended and the upper, undeformed units were deposited. Although any amount of rock emplacement and rock deformation can occur, and they can occur any number of times, these concepts provide a guide to understanding the geological history of an area.",
+          "rrf_score": 0.030117753623188408
+        },
+        {
+          "document_id": "doc_0353",
+          "title": "Geology",
+          "context": "The addition of new rock units, both depositionally and intrusively, often occurs during deformation. Faulting and other deformational processes result in the creation of topographic gradients, causing material on the rock unit that is increasing in elevation to be eroded by hillslopes and channels. These sediments are deposited on the rock unit that is going down. Continual motion along the fault maintains the topographic gradient in spite of the movement of sediment, and continues to create accommodation space for the material to deposit. Deformational events are often also associated with volcanism and igneous activity. Volcanic ashes and lavas accumulate on the surface, and igneous intrusions enter from below. Dikes, long, planar igneous intrusions, enter along cracks, and therefore often form in large numbers in areas that are being actively deformed. This can result in the emplacement of dike swarms, such as those that are observable across the Canadian shield, or rings of dikes around the lava tube of a volcano.",
+          "rrf_score": 0.03007688828584351
+        }
+      ],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "5a59002d3e1742001a15cf3b",
+      "question": "Absolute ages had to be converted into what?",
+      "group": "unanswerable",
+      "reference_answers": [],
+      "condition": "baseline",
+      "model": "gpt-6-luna",
+      "prompt": "Question: Absolute ages had to be converted into what?\nAnswer:",
+      "retrieved_document_ids": [],
+      "retrieved_passages": [],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "5a59002d3e1742001a15cf3b",
+      "question": "Absolute ages had to be converted into what?",
+      "group": "unanswerable",
+      "reference_answers": [],
+      "condition": "hallucination_aware",
+      "model": "gpt-6-luna",
+      "prompt": "Answer the question only when you have sufficient information.\nDo not invent facts or make unsupported claims.\nIf you are uncertain or cannot determine the answer, respond:\n\"I don't know.\"\n\nQuestion: Absolute ages had to be converted into what?\nAnswer:",
+      "retrieved_document_ids": [],
+      "retrieved_passages": [],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "5a59002d3e1742001a15cf3b",
+      "question": "Absolute ages had to be converted into what?",
+      "group": "unanswerable",
+      "reference_answers": [],
+      "condition": "rag",
+      "model": "gpt-6-luna",
+      "prompt": "Use the provided passages to answer the question.\n\nPassages:\n[Document 1]\nAt the beginning of the 20th century, important advancement in geological science was facilitated by the ability to obtain accurate absolute dates to geologic events using radioactive isotopes and other methods. This changed the understanding of geologic time. Previously, geologists could only use fossils and stratigraphic correlation to date sections of rock relative to one another. With isotopic dates it became possible to assign absolute ages to rock units, and these absolute dates could be applied to fossil sequences in which there was datable material, converting the old relative ages into new absolute ages.\n\n[Document 2]\nMany machine models different from the standard multi-tape Turing machines have been proposed in the literature, for example random access machines. Perhaps surprisingly, each of these models can be converted to another without providing any extra computational power. The time and memory consumption of these alternate models may vary. What all these models have in common is that the machines operate deterministically.\n\n[Document 3]\nThe Age of Imperialism, a time period beginning around 1700, saw (generally European) industrializing nations engaging in the process of colonizing, influencing, and annexing other parts of the world in order to gain political power.[citation needed] Although imperialist practices have existed for thousands of years, the term \"Age of Imperialism\" generally refers to the activities of European powers from the early 18th century through to the middle of the 20th century, for example, the \"The Great Game\" in Persian lands, the \"Scramble for Africa\" and the \"Open Door Policy\" in China.\n\n[Document 4]\nThe following four timelines show the geologic time scale. The first shows the entire time from the formation of the Earth to the present, but this compresses the most recent eon. Therefore, the second scale shows the most recent eon with an expanded scale. The second scale compresses the most recent era, so the most recent era is expanded in the third scale. Since the Quaternary is a very short period with short epochs, it is further expanded in the fourth scale. The second, third, and fourth timelines are therefore each subsections of their preceding timeline as indicated by asterisks. The Holocene (the latest epoch) is too small to be shown clearly on the third timeline on the right, another reason for expanding the fourth scale. The Pleistocene (P) epoch. Q stands for the Quaternary period.\n\n[Document 5]\nIn the 1910s, New York–based filmmakers were attracted to Jacksonville's warm climate, exotic locations, excellent rail access, and cheap labor. Over the course of the decade, more than 30 silent film studios were established, earning Jacksonville the title of \"Winter Film Capital of the World\". However, the emergence of Hollywood as a major film production center ended the city's film industry. One converted movie studio site, Norman Studios, remains in Arlington; It has been converted to the Jacksonville Silent Film Museum at Norman Studios.\n\nQuestion: Absolute ages had to be converted into what?\nAnswer:",
+      "retrieved_document_ids": [
+        "doc_0007",
+        "doc_0234",
+        "doc_0439",
+        "doc_0289",
+        "doc_0468"
+      ],
+      "retrieved_passages": [
+        {
+          "document_id": "doc_0007",
+          "title": "Geology",
+          "context": "At the beginning of the 20th century, important advancement in geological science was facilitated by the ability to obtain accurate absolute dates to geologic events using radioactive isotopes and other methods. This changed the understanding of geologic time. Previously, geologists could only use fossils and stratigraphic correlation to date sections of rock relative to one another. With isotopic dates it became possible to assign absolute ages to rock units, and these absolute dates could be applied to fossil sequences in which there was datable material, converting the old relative ages into new absolute ages.",
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "document_id": "doc_0234",
+          "title": "Computational_complexity_theory",
+          "context": "Many machine models different from the standard multi-tape Turing machines have been proposed in the literature, for example random access machines. Perhaps surprisingly, each of these models can be converted to another without providing any extra computational power. The time and memory consumption of these alternate models may vary. What all these models have in common is that the machines operate deterministically.",
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "document_id": "doc_0439",
+          "title": "Imperialism",
+          "context": "The Age of Imperialism, a time period beginning around 1700, saw (generally European) industrializing nations engaging in the process of colonizing, influencing, and annexing other parts of the world in order to gain political power.[citation needed] Although imperialist practices have existed for thousands of years, the term \"Age of Imperialism\" generally refers to the activities of European powers from the early 18th century through to the middle of the 20th century, for example, the \"The Great Game\" in Persian lands, the \"Scramble for Africa\" and the \"Open Door Policy\" in China.",
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "document_id": "doc_0289",
+          "title": "Geology",
+          "context": "The following four timelines show the geologic time scale. The first shows the entire time from the formation of the Earth to the present, but this compresses the most recent eon. Therefore, the second scale shows the most recent eon with an expanded scale. The second scale compresses the most recent era, so the most recent era is expanded in the third scale. Since the Quaternary is a very short period with short epochs, it is further expanded in the fourth scale. The second, third, and fourth timelines are therefore each subsections of their preceding timeline as indicated by asterisks. The Holocene (the latest epoch) is too small to be shown clearly on the third timeline on the right, another reason for expanding the fourth scale. The Pleistocene (P) epoch. Q stands for the Quaternary period.",
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "document_id": "doc_0468",
+          "title": "Jacksonville,_Florida",
+          "context": "In the 1910s, New York–based filmmakers were attracted to Jacksonville's warm climate, exotic locations, excellent rail access, and cheap labor. Over the course of the decade, more than 30 silent film studios were established, earning Jacksonville the title of \"Winter Film Capital of the World\". However, the emergence of Hollywood as a major film production center ended the city's film industry. One converted movie studio site, Norman Studios, remains in Arlington; It has been converted to the Jacksonville Silent Film Museum at Norman Studios.",
+          "rrf_score": 0.015873015873015872
+        }
+      ],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "5a59002d3e1742001a15cf3b",
+      "question": "Absolute ages had to be converted into what?",
+      "group": "unanswerable",
+      "reference_answers": [],
+      "condition": "rag_hallucination_aware",
+      "model": "gpt-6-luna",
+      "prompt": "Answer the question only when you have sufficient information.\nDo not invent facts or make unsupported claims.\nIf you are uncertain or cannot determine the answer, respond:\n\"I don't know.\"\n\nUse the provided passages to answer the question.\n\nPassages:\n[Document 1]\nAt the beginning of the 20th century, important advancement in geological science was facilitated by the ability to obtain accurate absolute dates to geologic events using radioactive isotopes and other methods. This changed the understanding of geologic time. Previously, geologists could only use fossils and stratigraphic correlation to date sections of rock relative to one another. With isotopic dates it became possible to assign absolute ages to rock units, and these absolute dates could be applied to fossil sequences in which there was datable material, converting the old relative ages into new absolute ages.\n\n[Document 2]\nMany machine models different from the standard multi-tape Turing machines have been proposed in the literature, for example random access machines. Perhaps surprisingly, each of these models can be converted to another without providing any extra computational power. The time and memory consumption of these alternate models may vary. What all these models have in common is that the machines operate deterministically.\n\n[Document 3]\nThe Age of Imperialism, a time period beginning around 1700, saw (generally European) industrializing nations engaging in the process of colonizing, influencing, and annexing other parts of the world in order to gain political power.[citation needed] Although imperialist practices have existed for thousands of years, the term \"Age of Imperialism\" generally refers to the activities of European powers from the early 18th century through to the middle of the 20th century, for example, the \"The Great Game\" in Persian lands, the \"Scramble for Africa\" and the \"Open Door Policy\" in China.\n\n[Document 4]\nThe following four timelines show the geologic time scale. The first shows the entire time from the formation of the Earth to the present, but this compresses the most recent eon. Therefore, the second scale shows the most recent eon with an expanded scale. The second scale compresses the most recent era, so the most recent era is expanded in the third scale. Since the Quaternary is a very short period with short epochs, it is further expanded in the fourth scale. The second, third, and fourth timelines are therefore each subsections of their preceding timeline as indicated by asterisks. The Holocene (the latest epoch) is too small to be shown clearly on the third timeline on the right, another reason for expanding the fourth scale. The Pleistocene (P) epoch. Q stands for the Quaternary period.\n\n[Document 5]\nIn the 1910s, New York–based filmmakers were attracted to Jacksonville's warm climate, exotic locations, excellent rail access, and cheap labor. Over the course of the decade, more than 30 silent film studios were established, earning Jacksonville the title of \"Winter Film Capital of the World\". However, the emergence of Hollywood as a major film production center ended the city's film industry. One converted movie studio site, Norman Studios, remains in Arlington; It has been converted to the Jacksonville Silent Film Museum at Norman Studios.\n\nQuestion: Absolute ages had to be converted into what?\nAnswer:",
+      "retrieved_document_ids": [
+        "doc_0007",
+        "doc_0234",
+        "doc_0439",
+        "doc_0289",
+        "doc_0468"
+      ],
+      "retrieved_passages": [
+        {
+          "document_id": "doc_0007",
+          "title": "Geology",
+          "context": "At the beginning of the 20th century, important advancement in geological science was facilitated by the ability to obtain accurate absolute dates to geologic events using radioactive isotopes and other methods. This changed the understanding of geologic time. Previously, geologists could only use fossils and stratigraphic correlation to date sections of rock relative to one another. With isotopic dates it became possible to assign absolute ages to rock units, and these absolute dates could be applied to fossil sequences in which there was datable material, converting the old relative ages into new absolute ages.",
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "document_id": "doc_0234",
+          "title": "Computational_complexity_theory",
+          "context": "Many machine models different from the standard multi-tape Turing machines have been proposed in the literature, for example random access machines. Perhaps surprisingly, each of these models can be converted to another without providing any extra computational power. The time and memory consumption of these alternate models may vary. What all these models have in common is that the machines operate deterministically.",
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "document_id": "doc_0439",
+          "title": "Imperialism",
+          "context": "The Age of Imperialism, a time period beginning around 1700, saw (generally European) industrializing nations engaging in the process of colonizing, influencing, and annexing other parts of the world in order to gain political power.[citation needed] Although imperialist practices have existed for thousands of years, the term \"Age of Imperialism\" generally refers to the activities of European powers from the early 18th century through to the middle of the 20th century, for example, the \"The Great Game\" in Persian lands, the \"Scramble for Africa\" and the \"Open Door Policy\" in China.",
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "document_id": "doc_0289",
+          "title": "Geology",
+          "context": "The following four timelines show the geologic time scale. The first shows the entire time from the formation of the Earth to the present, but this compresses the most recent eon. Therefore, the second scale shows the most recent eon with an expanded scale. The second scale compresses the most recent era, so the most recent era is expanded in the third scale. Since the Quaternary is a very short period with short epochs, it is further expanded in the fourth scale. The second, third, and fourth timelines are therefore each subsections of their preceding timeline as indicated by asterisks. The Holocene (the latest epoch) is too small to be shown clearly on the third timeline on the right, another reason for expanding the fourth scale. The Pleistocene (P) epoch. Q stands for the Quaternary period.",
+          "rrf_score": 0.015873015873015872
+        },
+        {
+          "document_id": "doc_0468",
+          "title": "Jacksonville,_Florida",
+          "context": "In the 1910s, New York–based filmmakers were attracted to Jacksonville's warm climate, exotic locations, excellent rail access, and cheap labor. Over the course of the decade, more than 30 silent film studios were established, earning Jacksonville the title of \"Winter Film Capital of the World\". However, the emergence of Hollywood as a major film production center ended the city's film industry. One converted movie studio site, Norman Studios, remains in Arlington; It has been converted to the Jacksonville Silent Film Museum at Norman Studios.",
+          "rrf_score": 0.015873015873015872
+        }
+      ],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "5a3e2dc0378766001a0024c3",
+      "question": "Which non-governmental groups are participants of the plenary sessions?",
+      "group": "unanswerable",
+      "reference_answers": [],
+      "condition": "baseline",
+      "model": "gpt-6-luna",
+      "prompt": "Question: Which non-governmental groups are participants of the plenary sessions?\nAnswer:",
+      "retrieved_document_ids": [],
+      "retrieved_passages": [],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "5a3e2dc0378766001a0024c3",
+      "question": "Which non-governmental groups are participants of the plenary sessions?",
+      "group": "unanswerable",
+      "reference_answers": [],
+      "condition": "hallucination_aware",
+      "model": "gpt-6-luna",
+      "prompt": "Answer the question only when you have sufficient information.\nDo not invent facts or make unsupported claims.\nIf you are uncertain or cannot determine the answer, respond:\n\"I don't know.\"\n\nQuestion: Which non-governmental groups are participants of the plenary sessions?\nAnswer:",
+      "retrieved_document_ids": [],
+      "retrieved_passages": [],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "5a3e2dc0378766001a0024c3",
+      "question": "Which non-governmental groups are participants of the plenary sessions?",
+      "group": "unanswerable",
+      "reference_answers": [],
+      "condition": "rag",
+      "model": "gpt-6-luna",
+      "prompt": "Use the provided passages to answer the question.\n\nPassages:\n[Document 1]\nThe IPCC Panel is composed of representatives appointed by governments and organizations. Participation of delegates with appropriate expertise is encouraged. Plenary sessions of the IPCC and IPCC Working groups are held at the level of government representatives. Non Governmental and Intergovernmental Organizations may be allowed to attend as observers. Sessions of the IPCC Bureau, workshops, expert and lead authors meetings are by invitation only. Attendance at the 2003 meeting included 350 government officials and climate change experts. After the opening ceremonies, closed plenary sessions were held. The meeting report states there were 322 persons in attendance at Sessions with about seven-eighths of participants being from governmental organizations.\n\n[Document 2]\nThe first item of business on Wednesdays is usually Time for Reflection, at which a speaker addresses members for up to four minutes, sharing a perspective on issues of faith. This contrasts with the formal style of \"Prayers\", which is the first item of business in meetings of the House of Commons. Speakers are drawn from across Scotland and are chosen to represent the balance of religious beliefs according to the Scottish census. Invitations to address Parliament in this manner are determined by the Presiding Officer on the advice of the parliamentary bureau. Faith groups can make direct representations to the Presiding Officer to nominate speakers.\n\n[Document 3]\nImmediately after Decision Time a \"Members Debate\" is held, which lasts for 45 minutes. Members Business is a debate on a motion proposed by an MSP who is not a Scottish minister. Such motions are on issues which may be of interest to a particular area such as a member's own constituency, an upcoming or past event or any other item which would otherwise not be accorded official parliamentary time. As well as the proposer, other members normally contribute to the debate. The relevant minister, whose department the debate and motion relate to \"winds up\" the debate by speaking after all other participants.\n\n[Document 4]\nSome theories of civil disobedience hold that civil disobedience is only justified against governmental entities. Brownlee argues that disobedience in opposition to the decisions of non-governmental agencies such as trade unions, banks, and private universities can be justified if it reflects \"a larger challenge to the legal system that permits those decisions to be taken\". The same principle, she argues, applies to breaches of law in protest against international organizations and foreign governments.\n\n[Document 5]\nParliamentary time is also set aside for question periods in the debating chamber. A \"General Question Time\" takes place on a Thursday between 11:40 a.m. and 12 p.m. where members can direct questions to any member of the Scottish Government. At 2.30pm, a 40-minute long themed \"Question Time\" takes place, where members can ask questions of ministers in departments that are selected for questioning that sitting day, such as health and justice or education and transport. Between 12 p.m. and 12:30 p.m. on Thursdays, when Parliament is sitting, First Minister's Question Time takes place. This gives members an opportunity to question the First Minister directly on issues under their jurisdiction. Opposition leaders ask a general question of the First Minister and then supplementary questions. Such a practice enables a \"lead-in\" to the questioner, who then uses their supplementary question to ask the First Minister any issue. The four general questions available to opposition leaders are:\n\nQuestion: Which non-governmental groups are participants of the plenary sessions?\nAnswer:",
+      "retrieved_document_ids": [
+        "doc_0051",
+        "doc_0394",
+        "doc_0089",
+        "doc_0390",
+        "doc_0039"
+      ],
+      "retrieved_passages": [
+        {
+          "document_id": "doc_0051",
+          "title": "Intergovernmental_Panel_on_Climate_Change",
+          "context": "The IPCC Panel is composed of representatives appointed by governments and organizations. Participation of delegates with appropriate expertise is encouraged. Plenary sessions of the IPCC and IPCC Working groups are held at the level of government representatives. Non Governmental and Intergovernmental Organizations may be allowed to attend as observers. Sessions of the IPCC Bureau, workshops, expert and lead authors meetings are by invitation only. Attendance at the 2003 meeting included 350 government officials and climate change experts. After the opening ceremonies, closed plenary sessions were held. The meeting report states there were 322 persons in attendance at Sessions with about seven-eighths of participants being from governmental organizations.",
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "document_id": "doc_0394",
+          "title": "Scottish_Parliament",
+          "context": "The first item of business on Wednesdays is usually Time for Reflection, at which a speaker addresses members for up to four minutes, sharing a perspective on issues of faith. This contrasts with the formal style of \"Prayers\", which is the first item of business in meetings of the House of Commons. Speakers are drawn from across Scotland and are chosen to represent the balance of religious beliefs according to the Scottish census. Invitations to address Parliament in this manner are determined by the Presiding Officer on the advice of the parliamentary bureau. Faith groups can make direct representations to the Presiding Officer to nominate speakers.",
+          "rrf_score": 0.02877846790890269
+        },
+        {
+          "document_id": "doc_0089",
+          "title": "Scottish_Parliament",
+          "context": "Immediately after Decision Time a \"Members Debate\" is held, which lasts for 45 minutes. Members Business is a debate on a motion proposed by an MSP who is not a Scottish minister. Such motions are on issues which may be of interest to a particular area such as a member's own constituency, an upcoming or past event or any other item which would otherwise not be accorded official parliamentary time. As well as the proposer, other members normally contribute to the debate. The relevant minister, whose department the debate and motion relate to \"winds up\" the debate by speaking after all other participants.",
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "document_id": "doc_0390",
+          "title": "Civil_disobedience",
+          "context": "Some theories of civil disobedience hold that civil disobedience is only justified against governmental entities. Brownlee argues that disobedience in opposition to the decisions of non-governmental agencies such as trade unions, banks, and private universities can be justified if it reflects \"a larger challenge to the legal system that permits those decisions to be taken\". The same principle, she argues, applies to breaches of law in protest against international organizations and foreign governments.",
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "document_id": "doc_0039",
+          "title": "Scottish_Parliament",
+          "context": "Parliamentary time is also set aside for question periods in the debating chamber. A \"General Question Time\" takes place on a Thursday between 11:40 a.m. and 12 p.m. where members can direct questions to any member of the Scottish Government. At 2.30pm, a 40-minute long themed \"Question Time\" takes place, where members can ask questions of ministers in departments that are selected for questioning that sitting day, such as health and justice or education and transport. Between 12 p.m. and 12:30 p.m. on Thursdays, when Parliament is sitting, First Minister's Question Time takes place. This gives members an opportunity to question the First Minister directly on issues under their jurisdiction. Opposition leaders ask a general question of the First Minister and then supplementary questions. Such a practice enables a \"lead-in\" to the questioner, who then uses their supplementary question to ask the First Minister any issue. The four general questions available to opposition leaders are:",
+          "rrf_score": 0.015873015873015872
+        }
+      ],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    },
+    {
+      "question_id": "5a3e2dc0378766001a0024c3",
+      "question": "Which non-governmental groups are participants of the plenary sessions?",
+      "group": "unanswerable",
+      "reference_answers": [],
+      "condition": "rag_hallucination_aware",
+      "model": "gpt-6-luna",
+      "prompt": "Answer the question only when you have sufficient information.\nDo not invent facts or make unsupported claims.\nIf you are uncertain or cannot determine the answer, respond:\n\"I don't know.\"\n\nUse the provided passages to answer the question.\n\nPassages:\n[Document 1]\nThe IPCC Panel is composed of representatives appointed by governments and organizations. Participation of delegates with appropriate expertise is encouraged. Plenary sessions of the IPCC and IPCC Working groups are held at the level of government representatives. Non Governmental and Intergovernmental Organizations may be allowed to attend as observers. Sessions of the IPCC Bureau, workshops, expert and lead authors meetings are by invitation only. Attendance at the 2003 meeting included 350 government officials and climate change experts. After the opening ceremonies, closed plenary sessions were held. The meeting report states there were 322 persons in attendance at Sessions with about seven-eighths of participants being from governmental organizations.\n\n[Document 2]\nThe first item of business on Wednesdays is usually Time for Reflection, at which a speaker addresses members for up to four minutes, sharing a perspective on issues of faith. This contrasts with the formal style of \"Prayers\", which is the first item of business in meetings of the House of Commons. Speakers are drawn from across Scotland and are chosen to represent the balance of religious beliefs according to the Scottish census. Invitations to address Parliament in this manner are determined by the Presiding Officer on the advice of the parliamentary bureau. Faith groups can make direct representations to the Presiding Officer to nominate speakers.\n\n[Document 3]\nImmediately after Decision Time a \"Members Debate\" is held, which lasts for 45 minutes. Members Business is a debate on a motion proposed by an MSP who is not a Scottish minister. Such motions are on issues which may be of interest to a particular area such as a member's own constituency, an upcoming or past event or any other item which would otherwise not be accorded official parliamentary time. As well as the proposer, other members normally contribute to the debate. The relevant minister, whose department the debate and motion relate to \"winds up\" the debate by speaking after all other participants.\n\n[Document 4]\nSome theories of civil disobedience hold that civil disobedience is only justified against governmental entities. Brownlee argues that disobedience in opposition to the decisions of non-governmental agencies such as trade unions, banks, and private universities can be justified if it reflects \"a larger challenge to the legal system that permits those decisions to be taken\". The same principle, she argues, applies to breaches of law in protest against international organizations and foreign governments.\n\n[Document 5]\nParliamentary time is also set aside for question periods in the debating chamber. A \"General Question Time\" takes place on a Thursday between 11:40 a.m. and 12 p.m. where members can direct questions to any member of the Scottish Government. At 2.30pm, a 40-minute long themed \"Question Time\" takes place, where members can ask questions of ministers in departments that are selected for questioning that sitting day, such as health and justice or education and transport. Between 12 p.m. and 12:30 p.m. on Thursdays, when Parliament is sitting, First Minister's Question Time takes place. This gives members an opportunity to question the First Minister directly on issues under their jurisdiction. Opposition leaders ask a general question of the First Minister and then supplementary questions. Such a practice enables a \"lead-in\" to the questioner, who then uses their supplementary question to ask the First Minister any issue. The four general questions available to opposition leaders are:\n\nQuestion: Which non-governmental groups are participants of the plenary sessions?\nAnswer:",
+      "retrieved_document_ids": [
+        "doc_0051",
+        "doc_0394",
+        "doc_0089",
+        "doc_0390",
+        "doc_0039"
+      ],
+      "retrieved_passages": [
+        {
+          "document_id": "doc_0051",
+          "title": "Intergovernmental_Panel_on_Climate_Change",
+          "context": "The IPCC Panel is composed of representatives appointed by governments and organizations. Participation of delegates with appropriate expertise is encouraged. Plenary sessions of the IPCC and IPCC Working groups are held at the level of government representatives. Non Governmental and Intergovernmental Organizations may be allowed to attend as observers. Sessions of the IPCC Bureau, workshops, expert and lead authors meetings are by invitation only. Attendance at the 2003 meeting included 350 government officials and climate change experts. After the opening ceremonies, closed plenary sessions were held. The meeting report states there were 322 persons in attendance at Sessions with about seven-eighths of participants being from governmental organizations.",
+          "rrf_score": 0.03278688524590164
+        },
+        {
+          "document_id": "doc_0394",
+          "title": "Scottish_Parliament",
+          "context": "The first item of business on Wednesdays is usually Time for Reflection, at which a speaker addresses members for up to four minutes, sharing a perspective on issues of faith. This contrasts with the formal style of \"Prayers\", which is the first item of business in meetings of the House of Commons. Speakers are drawn from across Scotland and are chosen to represent the balance of religious beliefs according to the Scottish census. Invitations to address Parliament in this manner are determined by the Presiding Officer on the advice of the parliamentary bureau. Faith groups can make direct representations to the Presiding Officer to nominate speakers.",
+          "rrf_score": 0.02877846790890269
+        },
+        {
+          "document_id": "doc_0089",
+          "title": "Scottish_Parliament",
+          "context": "Immediately after Decision Time a \"Members Debate\" is held, which lasts for 45 minutes. Members Business is a debate on a motion proposed by an MSP who is not a Scottish minister. Such motions are on issues which may be of interest to a particular area such as a member's own constituency, an upcoming or past event or any other item which would otherwise not be accorded official parliamentary time. As well as the proposer, other members normally contribute to the debate. The relevant minister, whose department the debate and motion relate to \"winds up\" the debate by speaking after all other participants.",
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "document_id": "doc_0390",
+          "title": "Civil_disobedience",
+          "context": "Some theories of civil disobedience hold that civil disobedience is only justified against governmental entities. Brownlee argues that disobedience in opposition to the decisions of non-governmental agencies such as trade unions, banks, and private universities can be justified if it reflects \"a larger challenge to the legal system that permits those decisions to be taken\". The same principle, she argues, applies to breaches of law in protest against international organizations and foreign governments.",
+          "rrf_score": 0.016129032258064516
+        },
+        {
+          "document_id": "doc_0039",
+          "title": "Scottish_Parliament",
+          "context": "Parliamentary time is also set aside for question periods in the debating chamber. A \"General Question Time\" takes place on a Thursday between 11:40 a.m. and 12 p.m. where members can direct questions to any member of the Scottish Government. At 2.30pm, a 40-minute long themed \"Question Time\" takes place, where members can ask questions of ministers in departments that are selected for questioning that sitting day, such as health and justice or education and transport. Between 12 p.m. and 12:30 p.m. on Thursdays, when Parliament is sitting, First Minister's Question Time takes place. This gives members an opportunity to question the First Minister directly on issues under their jurisdiction. Opposition leaders ask a general question of the First Minister and then supplementary questions. Such a practice enables a \"lead-in\" to the questioner, who then uses their supplementary question to ask the First Minister any issue. The four general questions available to opposition leaders are:",
+          "rrf_score": 0.015873015873015872
+        }
+      ],
+      "status": "pending",
+      "answer": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "error": null
+    }
+  ]
+}

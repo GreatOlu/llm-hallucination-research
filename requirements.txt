@@ -2,3 +2,5 @@ datasets
 pandas
 sentence_transformers
 rank-bm25
+openai
+python-dotenv

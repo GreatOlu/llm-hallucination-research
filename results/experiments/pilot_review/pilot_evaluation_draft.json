@@ -1,0 +1,440 @@
+{
+  "source_file": "/Users/great/llm-hallucination-research/results/experiments/pilot_v2.json",
+  "source_sha256": "e4727ea19a029dc9b324043153f1fe3a024f2052f6a02fa8b7abf51aa2ef4a18",
+  "rubric_version": "pilot-draft-1",
+  "reviewer": "AI-assisted provisional review; not independent human scoring",
+  "records": [
+    {
+      "question_id": "572883153acd2414000dfa6f",
+      "question": "What Mongolian system did Kublai's government compromise with?",
+      "condition": "baseline",
+      "answer": "Kublai\u2019s government compromised with the Mongol **appanage system**, allowing Mongol princes and nobles to retain hereditary lands and privileges.",
+      "reference_answers": [
+        "patrimonial feudalism",
+        "patrimonial feudalism",
+        "patrimonial feudalism"
+      ],
+      "retrieved_document_ids": [],
+      "correctness": "incorrect",
+      "reference_support": "unsupported",
+      "behavior": "answer",
+      "rationale": "Appanage system does not match the reference concept; hereditary-land detail is not established by the reviewed passage.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0040"
+      ]
+    },
+    {
+      "question_id": "572883153acd2414000dfa6f",
+      "question": "What Mongolian system did Kublai's government compromise with?",
+      "condition": "hallucination_aware",
+      "answer": "The traditional Mongol system of rule by tribal nobles.",
+      "reference_answers": [
+        "patrimonial feudalism",
+        "patrimonial feudalism",
+        "patrimonial feudalism"
+      ],
+      "retrieved_document_ids": [],
+      "correctness": "partial",
+      "reference_support": "partial",
+      "behavior": "answer",
+      "rationale": "Rule by tribal nobles captures some meaning but does not identify patrimonial feudalism precisely; human adjudication needed.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0040"
+      ]
+    },
+    {
+      "question_id": "572883153acd2414000dfa6f",
+      "question": "What Mongolian system did Kublai's government compromise with?",
+      "condition": "rag",
+      "answer": "Mongolian patrimonial feudalism.",
+      "reference_answers": [
+        "patrimonial feudalism",
+        "patrimonial feudalism",
+        "patrimonial feudalism"
+      ],
+      "retrieved_document_ids": [
+        "doc_0040",
+        "doc_0388",
+        "doc_0296",
+        "doc_0326",
+        "doc_0456"
+      ],
+      "correctness": "correct",
+      "reference_support": "supported",
+      "behavior": "answer",
+      "rationale": "Identifies Mongolian patrimonial feudalism in doc_0040.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0040"
+      ]
+    },
+    {
+      "question_id": "572883153acd2414000dfa6f",
+      "question": "What Mongolian system did Kublai's government compromise with?",
+      "condition": "rag_hallucination_aware",
+      "answer": "Mongolian patrimonial feudalism.",
+      "reference_answers": [
+        "patrimonial feudalism",
+        "patrimonial feudalism",
+        "patrimonial feudalism"
+      ],
+      "retrieved_document_ids": [
+        "doc_0040",
+        "doc_0388",
+        "doc_0296",
+        "doc_0326",
+        "doc_0456"
+      ],
+      "correctness": "correct",
+      "reference_support": "supported",
+      "behavior": "answer",
+      "rationale": "Identifies Mongolian patrimonial feudalism in doc_0040.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0040"
+      ]
+    },
+    {
+      "question_id": "572883153acd2414000dfa73",
+      "question": "Where were Persians more successful compared to Chinese in the Yuan?",
+      "condition": "baseline",
+      "answer": "Persians were more successful in Yuan government, particularly in financial and tax administration, where Mongol rulers often favored Persian and other Central Asian officials over ethnic Chinese.",
+      "reference_answers": [
+        "Ilkhanate",
+        "Ilkhanate",
+        "reaching the highest-post in the government"
+      ],
+      "retrieved_document_ids": [],
+      "correctness": "incorrect",
+      "reference_support": "unsupported",
+      "behavior": "answer",
+      "rationale": "Answers about Yuan financial administration rather than the Ilkhanate comparison in doc_0040.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0040"
+      ]
+    },
+    {
+      "question_id": "572883153acd2414000dfa73",
+      "question": "Where were Persians more successful compared to Chinese in the Yuan?",
+      "condition": "hallucination_aware",
+      "answer": "Persians were more successful in Yuan government, especially in financial administration and tax collection.",
+      "reference_answers": [
+        "Ilkhanate",
+        "Ilkhanate",
+        "reaching the highest-post in the government"
+      ],
+      "retrieved_document_ids": [],
+      "correctness": "incorrect",
+      "reference_support": "unsupported",
+      "behavior": "answer",
+      "rationale": "Answers about Yuan financial administration rather than the Ilkhanate comparison in doc_0040.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0040"
+      ]
+    },
+    {
+      "question_id": "572883153acd2414000dfa73",
+      "question": "Where were Persians more successful compared to Chinese in the Yuan?",
+      "condition": "rag",
+      "answer": "Persians were more successful at reaching the highest government posts in the **Ilkhanate**; Chinese rarely reached such posts in the Yuan.",
+      "reference_answers": [
+        "Ilkhanate",
+        "Ilkhanate",
+        "reaching the highest-post in the government"
+      ],
+      "retrieved_document_ids": [
+        "doc_0040",
+        "doc_0388",
+        "doc_0478",
+        "doc_0326",
+        "doc_0067"
+      ],
+      "correctness": "correct",
+      "reference_support": "supported",
+      "behavior": "answer",
+      "rationale": "Matches the Ilkhanate comparison in doc_0040.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0040"
+      ]
+    },
+    {
+      "question_id": "572883153acd2414000dfa73",
+      "question": "Where were Persians more successful compared to Chinese in the Yuan?",
+      "condition": "rag_hallucination_aware",
+      "answer": "Persians had greater access to the highest government posts in the Ilkhanate; few Chinese reached comparable posts in the Yuan.",
+      "reference_answers": [
+        "Ilkhanate",
+        "Ilkhanate",
+        "reaching the highest-post in the government"
+      ],
+      "retrieved_document_ids": [
+        "doc_0040",
+        "doc_0388",
+        "doc_0478",
+        "doc_0326",
+        "doc_0067"
+      ],
+      "correctness": "correct",
+      "reference_support": "supported",
+      "behavior": "answer",
+      "rationale": "Matches the Ilkhanate comparison in doc_0040.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0040"
+      ]
+    },
+    {
+      "question_id": "57266c015951b619008f7238",
+      "question": "What type of correlation was used previously to help date rock formations?",
+      "condition": "baseline",
+      "answer": "Biostratigraphic correlation\u2014matching rock layers by the fossils they contain.",
+      "reference_answers": [
+        "stratigraphic correlation",
+        "stratigraphic",
+        "stratigraphic",
+        "stratigraphic"
+      ],
+      "retrieved_document_ids": [],
+      "correctness": "correct",
+      "reference_support": "supported",
+      "behavior": "answer",
+      "rationale": "Provisionally accept fossil-based biostratigraphic correlation as a semantic match to the stratigraphic correlation described in doc_0007; confirm this rule with a human reviewer.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0007"
+      ]
+    },
+    {
+      "question_id": "57266c015951b619008f7238",
+      "question": "What type of correlation was used previously to help date rock formations?",
+      "condition": "hallucination_aware",
+      "answer": "Fossil, or biostratigraphic, correlation.",
+      "reference_answers": [
+        "stratigraphic correlation",
+        "stratigraphic",
+        "stratigraphic",
+        "stratigraphic"
+      ],
+      "retrieved_document_ids": [],
+      "correctness": "correct",
+      "reference_support": "supported",
+      "behavior": "answer",
+      "rationale": "Same semantic-equivalence decision as baseline; requires human confirmation.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0007"
+      ]
+    },
+    {
+      "question_id": "57266c015951b619008f7238",
+      "question": "What type of correlation was used previously to help date rock formations?",
+      "condition": "rag",
+      "answer": "Previously, geologists used fossils and stratigraphic correlation to date rock formations relative to one another.",
+      "reference_answers": [
+        "stratigraphic correlation",
+        "stratigraphic",
+        "stratigraphic",
+        "stratigraphic"
+      ],
+      "retrieved_document_ids": [
+        "doc_0007",
+        "doc_0477",
+        "doc_0497",
+        "doc_0330",
+        "doc_0353"
+      ],
+      "correctness": "correct",
+      "reference_support": "supported",
+      "behavior": "answer",
+      "rationale": "Explicitly identifies stratigraphic correlation in doc_0007.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0007"
+      ]
+    },
+    {
+      "question_id": "57266c015951b619008f7238",
+      "question": "What type of correlation was used previously to help date rock formations?",
+      "condition": "rag_hallucination_aware",
+      "answer": "Stratigraphic correlation, using fossils to compare rock layers.",
+      "reference_answers": [
+        "stratigraphic correlation",
+        "stratigraphic",
+        "stratigraphic",
+        "stratigraphic"
+      ],
+      "retrieved_document_ids": [
+        "doc_0007",
+        "doc_0477",
+        "doc_0497",
+        "doc_0330",
+        "doc_0353"
+      ],
+      "correctness": "correct",
+      "reference_support": "supported",
+      "behavior": "answer",
+      "rationale": "Explicitly identifies stratigraphic correlation in doc_0007.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0007"
+      ]
+    },
+    {
+      "question_id": "5a59002d3e1742001a15cf3b",
+      "question": "Absolute ages had to be converted into what?",
+      "condition": "baseline",
+      "answer": "Absolute ages had to be converted into calendar years.",
+      "reference_answers": [],
+      "retrieved_document_ids": [],
+      "correctness": "incorrect",
+      "reference_support": "unsupported",
+      "behavior": "answer",
+      "rationale": "Calendar years is not the conversion described in doc_0007; accepts the reversed premise.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0007"
+      ]
+    },
+    {
+      "question_id": "5a59002d3e1742001a15cf3b",
+      "question": "Absolute ages had to be converted into what?",
+      "condition": "hallucination_aware",
+      "answer": "I don't know.",
+      "reference_answers": [],
+      "retrieved_document_ids": [],
+      "correctness": "appropriate_abstention",
+      "reference_support": "not_applicable",
+      "behavior": "explicit_abstention",
+      "rationale": "Declines to invent a target for the reversed conversion.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0007"
+      ]
+    },
+    {
+      "question_id": "5a59002d3e1742001a15cf3b",
+      "question": "Absolute ages had to be converted into what?",
+      "condition": "rag",
+      "answer": "They converted previously relative ages of fossil sequences into absolute ages.",
+      "reference_answers": [],
+      "retrieved_document_ids": [
+        "doc_0007",
+        "doc_0234",
+        "doc_0439",
+        "doc_0289",
+        "doc_0468"
+      ],
+      "correctness": "nonresponsive",
+      "reference_support": "supported",
+      "behavior": "answer",
+      "rationale": "Restates the true relative-to-absolute conversion but does not explicitly identify that the question reverses it. Supported text is not necessarily a correct answer.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0007"
+      ]
+    },
+    {
+      "question_id": "5a59002d3e1742001a15cf3b",
+      "question": "Absolute ages had to be converted into what?",
+      "condition": "rag_hallucination_aware",
+      "answer": "The passage says relative ages were converted into absolute ages, not the other way around.",
+      "reference_answers": [],
+      "retrieved_document_ids": [
+        "doc_0007",
+        "doc_0234",
+        "doc_0439",
+        "doc_0289",
+        "doc_0468"
+      ],
+      "correctness": "appropriate_correction",
+      "reference_support": "supported",
+      "behavior": "premise_correction",
+      "rationale": "Explicitly rejects the reversed premise using doc_0007.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0007"
+      ]
+    },
+    {
+      "question_id": "5a3e2dc0378766001a0024c3",
+      "question": "Which non-governmental groups are participants of the plenary sessions?",
+      "condition": "baseline",
+      "answer": "If you mean the UN\u2019s \u201cMajor Groups,\u201d they include women, children and youth, Indigenous Peoples, NGOs, local authorities, workers and trade unions, business and industry, the scientific and technological community, and farmers.",
+      "reference_answers": [],
+      "retrieved_document_ids": [],
+      "correctness": "needs_review",
+      "reference_support": "unsupported",
+      "behavior": "conditional_answer",
+      "rationale": "UN Major Groups are not established by the reviewed IPCC passage; question lacks an institution. Dataset label also needs review.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0051"
+      ]
+    },
+    {
+      "question_id": "5a3e2dc0378766001a0024c3",
+      "question": "Which non-governmental groups are participants of the plenary sessions?",
+      "condition": "hallucination_aware",
+      "answer": "I don't know.",
+      "reference_answers": [],
+      "retrieved_document_ids": [],
+      "correctness": "needs_review",
+      "reference_support": "not_applicable",
+      "behavior": "explicit_abstention",
+      "rationale": "Abstains, consistent with supplied label, but appropriateness is unresolved because doc_0051 supplies a plausible observer answer.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0051"
+      ]
+    },
+    {
+      "question_id": "5a3e2dc0378766001a0024c3",
+      "question": "Which non-governmental groups are participants of the plenary sessions?",
+      "condition": "rag",
+      "answer": "Non-governmental and intergovernmental organizations may attend plenary sessions as observers.",
+      "reference_answers": [],
+      "retrieved_document_ids": [
+        "doc_0051",
+        "doc_0394",
+        "doc_0089",
+        "doc_0390",
+        "doc_0039"
+      ],
+      "correctness": "needs_review",
+      "reference_support": "supported",
+      "behavior": "answer",
+      "rationale": "Doc_0051 permits NGO/IGO observers. Answer preserves observer status. Whether this answers participants is ambiguous; do not count as hallucination.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0051"
+      ]
+    },
+    {
+      "question_id": "5a3e2dc0378766001a0024c3",
+      "question": "Which non-governmental groups are participants of the plenary sessions?",
+      "condition": "rag_hallucination_aware",
+      "answer": "Non-governmental and intergovernmental organizations may attend plenary sessions as observers.",
+      "reference_answers": [],
+      "retrieved_document_ids": [
+        "doc_0051",
+        "doc_0394",
+        "doc_0089",
+        "doc_0390",
+        "doc_0039"
+      ],
+      "correctness": "needs_review",
+      "reference_support": "supported",
+      "behavior": "answer",
+      "rationale": "Same evidence and ambiguity as standard RAG; do not count as hallucination.",
+      "review_status": "provisional_ai_review_requires_human_confirmation",
+      "evidence_document_ids": [
+        "doc_0051"
+      ]
+    }
+  ]
+}

@@ -8,3 +8,4 @@ __pycache__/
 *.pt
 .cache/
 data/processed/embeddings/
+results/experiments/*.lock
